@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/flexslider-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/flexslider-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/flexslider-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/slider-img-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/slider-img-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/slider-img-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/agenda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/agenda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_template/content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/egtp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fonts/flexslider-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_template/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_template/full_template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_template/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-1.8.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.flexslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/test_home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/experience.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/experience.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/hotnews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/hotnews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/knowledge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/knowledge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/overseas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/overseas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/front/tube.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/tube.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/event.php" afterPath="$PROJECT_DIR$/application/views/front_view/event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egtp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,99 +38,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
+      <file leaf-file-name="knowledge.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/knowledge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="71" selection-start="5236" selection-end="5236" vertical-scroll-proportion="-2.9803922" vertical-offset="2126" max-vertical-offset="2652">
+            <state line="4" column="426" selection-start="0" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/front/event.php">
+      <file leaf-file-name="knowledge.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/front/knowledge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="43" selection-start="336" selection-end="336" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <element signature="e#6#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.96067417" vertical-offset="269" max-vertical-offset="884">
+            <state line="26" column="0" selection-start="141" selection-end="539" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agenda.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/front/agenda.php">
+      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/front/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="140" selection-end="533" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="476">
+            <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agenda.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
+      <file leaf-file-name="experience.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/experience.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="426" selection-start="429" selection-end="429" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="426" selection-start="0" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="full_template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_template/full_template.php">
+      <file leaf-file-name="hotnews.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/front/hotnews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="21" selection-start="8895" selection-end="8895" vertical-scroll-proportion="-6.3137255" vertical-offset="1548" max-vertical-offset="2125">
-              <folding>
-                <element signature="tag#tr#0;tag#table#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#tr#1;tag#table#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#tr#2;tag#table#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#tr#3;tag#table#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#tr#4;tag#table#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_template/footer.php">
+      <file leaf-file-name="hotnews.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/hotnews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="84" selection-start="324" selection-end="324" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="493">
+            <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <file leaf-file-name="overseas.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="2" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-4.0384617" vertical-offset="881" max-vertical-offset="2074">
+            <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_template/content.php">
+      <file leaf-file-name="tube.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/tube.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="6" selection-end="30" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+            <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experience.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/front/experience.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="114" selection-end="114" vertical-scroll-proportion="0.093235835" vertical-offset="0" max-vertical-offset="547">
               <folding />
             </state>
           </provider>
@@ -179,9 +153,21 @@
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/agenda.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/agenda.php" />
-        <option value="$PROJECT_DIR$/application/views/front_template/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/event.php" />
+        <option value="$PROJECT_DIR$/application/views/front_template/header.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/event.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/knowledge.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/knowledge.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/overseas.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/tube.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/gallery.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/experiences.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/hotnews.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/hotnews.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/overseas.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/tube.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/gallery.php" />
+        <option value="$PROJECT_DIR$/application/controllers/front/experience.php" />
       </list>
     </option>
   </component>
@@ -197,7 +183,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -395,14 +381,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24814814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -608,16 +594,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
+    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="426" selection-start="429" selection-end="429" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+        <state line="127" column="98" selection-start="4862" selection-end="4900" vertical-scroll-proportion="-2.6666667" vertical-offset="2023" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="71" selection-start="5236" selection-end="5236" vertical-scroll-proportion="-2.9803922" vertical-offset="2126" max-vertical-offset="2652">
+        <state line="328" column="16" selection-start="7531" selection-end="7531" vertical-scroll-proportion="0.30291972" vertical-offset="5410" max-vertical-offset="13838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="1615" selection-end="1615" vertical-scroll-proportion="-6.0394735" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
@@ -629,18 +622,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="426" selection-start="0" selection-end="856" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/front/event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="336" selection-end="336" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="561">
+        <state line="26" column="0" selection-start="138" selection-end="530" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="561">
           <folding>
             <element signature="e#6#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/overseas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.96067417" vertical-offset="269" max-vertical-offset="884">
+        <state line="19" column="46" selection-start="342" selection-end="342" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/tube.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="334" selection-end="334" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/knowledge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="0" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/knowledge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="141" selection-end="539" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/hotnews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/experience.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="0" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/hotnews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/tube.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="426" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/experience.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="114" selection-end="114" vertical-scroll-proportion="0.093235835" vertical-offset="0" max-vertical-offset="547">
           <folding />
         </state>
       </provider>

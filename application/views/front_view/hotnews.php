@@ -1,0 +1,5 @@
+
+
+
+<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
+<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
