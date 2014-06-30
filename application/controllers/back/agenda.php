@@ -27,6 +27,8 @@ class Agenda extends CI_Controller {
         $crud = new grocery_CRUD();
         $crud->set_table('agenda');
         $crud->set_subject('Agenda');
+        $crud->change_field_type('description','text');
+
 
         //     $crud->set_crud_url_path(site_url(strtolower(__CLASS__."/".__FUNCTION__)),site_url(strtolower(__CLASS__."/multigrids")));
 

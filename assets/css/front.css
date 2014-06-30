@@ -1,0 +1,65 @@
+body,td,th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+
+}
+
+.warnacoklat{
+    background-color: #666666;
+}
+
+#wrapper-top{
+    /*    background:#fff;
+        height:100px; */
+}
+#wrapper-header{
+    background:#f9f9f9;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+
+}
+#slider-container {
+    padding : 29px 0 0 0;
+    width : 940px;
+    margin : 0px auto;
+}
+
+.vas {
+    font-size: 14px;
+    font-weight: bold;
+}
+.up {
+    color: #990;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.csa {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hh {
+    color: #FFF;
+}
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+#form1 table tr td {
+    color: #FFF;
+}
+.casf {
+    color: #000;
+}

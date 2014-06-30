@@ -4,10 +4,22 @@
     <script type="text/javascript">
         $(window).load(function(){
             $(".flexslider").flexslider({
-                animation: "slide"
+                animation: "slide",
+                animationSpeed: 600
             });
         });
     </script>
+    <style>
+        .flex-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+            padding: 10px;
+            color: white;
+            background-color: rgba(0,0,0,0.5);
+        }
+    </style>
         <div id="wrapper-top">
         </div>
         <div id="wrapper-header">
@@ -16,6 +28,7 @@
                     <ul class="slides">
                         <li>
                             <img src="<?php echo base_url() ?>assets/images/slider-img-01.png" />
+                            <p class="flex-caption">Caption, legend...</p>
                         </li>
                         <li>
                             <img src="<?php echo base_url() ?>assets/images/slider-img-02.png" />

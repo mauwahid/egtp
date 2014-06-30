@@ -12,7 +12,7 @@
 	$config['grocery_crud_file_upload_max_file_size'] 			= '20MB'; //ex. '10MB' (Mega Bytes), '1067KB' (Kilo Bytes), '5000B' (Bytes)
 
 	//You can choose 'ckeditor','tinymce' or 'markitup'
-	$config['grocery_crud_default_text_editor'] = 'ckeditor';
+	$config['grocery_crud_default_text_editor'] = 'markitup';
 	//You can choose 'minimal' or 'full'
 	$config['grocery_crud_text_editor_type'] 	= 'full';
 
@@ -22,7 +22,7 @@
 	//All the forms are opening with dialog forms without refreshing the page once again.
 	//IMPORTANT: PLease be aware that this functionality is still in BETA phase and it is 
 	//not suggested to use this in production mode
-	$config['grocery_crud_dialog_forms'] = false;
+	$config['grocery_crud_dialog_forms'] = true;
 
 	//Having some options at the list paging. This is the default one that all the websites are using.
 	//Make sure that the number of grocery_crud_default_per_page variable is included to this array.

@@ -4,7 +4,7 @@ function success_message(success_message)
 		  text: success_message,
 		  type: 'success',
 		  dismissQueue: true,
-		  layout: 'top',
+		  layout: 'bottom',
 		  callback: {
 		    afterShow: function() {
 

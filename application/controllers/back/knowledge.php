@@ -26,6 +26,8 @@ class Knowledge extends CI_Controller {
         $crud = new grocery_CRUD();
         $crud->set_table('other_knowledge');
         $crud->set_subject('Knowledge');
+        $crud->set_field_upload('file','assets/uploads/files');
+
 
         //     $crud->set_crud_url_path(site_url(strtolower(__CLASS__."/".__FUNCTION__)),site_url(strtolower(__CLASS__."/multigrids")));
 
