@@ -10,6 +10,7 @@ class Gallery extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
+
         $this->load->library('grocery_CRUD');
     }
 
@@ -25,7 +26,7 @@ class Gallery extends CI_Controller {
         $crud = new grocery_CRUD();
         $crud->set_table('gallery_photo');
         $crud->set_subject('Gallery Photo');
-        $crud->set_field_upload('picture','assets/uploads/files');
+        $crud->set_field_upload('photo','assets/uploads/files');
         $output = $crud->render();
         $this->render_output($output);
 

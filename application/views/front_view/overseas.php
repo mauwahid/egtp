@@ -1,5 +1,30 @@
+<?php
 
+$no = 0;
 
+foreach($data_overseas as $overseas){
+    ?>
+    <div class="agenda">
+        <p class="title"> <? echo $overseas->title ?></p>
+        <p class="date-title"><? echo $overseas->make_date ?></p>
+        <?php if($no % 2 == 0){
+            echo "<div class='pic-experience'>";
+        }else{
+            echo "<div class='pic-right'>";
+        }
 
-<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
-<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
+        ?>
+            <img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $overseas->picture; ?>" width="100px" height="100px" />
+        </div>
+        <p class="pr">
+            <? echo $overseas->description ?>
+        </p>
+        <div style="text-align:right;float:right; width:100%">read more..</div>
+    </div>
+
+<?php
+    $no++;
+}
+
+?>
+<div class="halaman"><?php echo $halaman;?></div>

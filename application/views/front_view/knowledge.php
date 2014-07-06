@@ -1,5 +1,18 @@
+<?php
 
+foreach($data_knowledge as $knowledge){
+    ?>
+    <div class="knowledge">
+        <p class="title"> <? echo $knowledge->title ?></p>
+        <p class="date-title"><? echo $knowledge->make_date ?></p>
+        <p class="pr">
+            <? echo $knowledge->description ?>
+        </p>
+        <div style="text-align:right;float:right; width:100%">read more..</div>
+    </div>
 
+<?php
+}
 
-<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
-<p>Jurnal Pembelian Parts Bahan merupakan background proses yang terjadi pada saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Tujuan dari modul ini adalah membuat service yang melakukan proses penjurnalan otomatis saat proses pembelian Parts dan Bahan terjadi pada sistem utama. Data dari hasil proses ini akan dibutuhkan oleh bagian keuangan/finance.  Berikut Flowchart dari Jurnal pembelian Parts Bahan.</p>
+?>
+<div class="halaman"><?php echo $halaman;?></div>

@@ -26,16 +26,17 @@
             <div id="slider-container">
                 <div class="flexslider">
                     <ul class="slides">
+
+                        <?php foreach($slide_show as $row){
+                         ?>
                         <li>
-                            <img src="<?php echo base_url() ?>assets/images/slider-img-01.png" />
+                            <img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $row->picture; ?>" width="940px" height="400px"/>
                             <p class="flex-caption">Caption, legend...</p>
                         </li>
-                        <li>
-                            <img src="<?php echo base_url() ?>assets/images/slider-img-02.png" />
-                        </li>
-                        <li>
-                            <img src="<?php echo base_url() ?>assets/images/slider-img-03.png" />
-                        </li>
+                        <?
+                            }
+                        ?>
+
                     </ul>
                 </div>
             </div>

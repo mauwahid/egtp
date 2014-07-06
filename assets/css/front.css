@@ -63,3 +63,74 @@ a:active {
 .casf {
     color: #000;
 }
+
+.agenda{
+    height:auto;
+    width:auto;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.title{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.date-title{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.pr{
+    width:100%;
+    padding-left:10px;
+    height : 20px;
+    inline-box-align:last;
+    margin-top:10px
+}
+
+.readmore{
+    width:100%;
+    text-align:right;
+    padding-right: 10px;
+}
+
+.halaman
+{
+    clear: both;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    margin:10px;
+    font-size:11px;
+}
+
+.halaman a
+{
+
+    padding:3px;
+    background:#990000;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #FFA500;
+    font-size:10px;
+    font-weight:bold;
+    color:#FFF;
+    text-decoration:none;
+
+}
+
+.pic-experience{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pic-right{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
