@@ -27,7 +27,7 @@
                         <a href="<?php echo site_url('front/login')?>">
                             <img src="<?php echo base_url() ?>assets/images/login.png" width="78" height="28" />
                         </a>
-                        </td>
+                    </td>
                 </tr>
             </table></td>
     </tr>
