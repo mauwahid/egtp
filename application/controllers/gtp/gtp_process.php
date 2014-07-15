@@ -1,14 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Maulana Wahid A
- * Date: 6/28/14
- * Time: 2:47 PM
- */
 
 
-class Slideshow extends  CI_Controller {
-
+class Gtp_process extends CI_Controller{
 
     public function __construct()
     {
@@ -54,7 +47,8 @@ class Slideshow extends  CI_Controller {
 
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_template/gtp_menu.php', $data);
-        $this->load->view('back_view/crud_table.php', $data);
+        $this->load->view('back_gtp/flow.php');
         $this->load->view('back_template/footer.php');
     }
+
 }

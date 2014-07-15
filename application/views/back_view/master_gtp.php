@@ -52,15 +52,15 @@
 </tr>
 <tr>
     <td>&nbsp;</td>
-    <td align="center"><a href="<?php echo site_url('back/company')?>"><img src="<?php echo base_url() ?>assets/images/hotnews.png" width="100" height="33" /></a></td>
+    <td align="center"><a href="<?php echo site_url('back/company')?>">Bi-Weekly Report</a></td>
     <td align="center">&nbsp;</td>
-    <td align="center"><a href="<?php echo site_url('back/official')?>"><img src="<?php echo base_url() ?>assets/images/overseas.png" width="100" height="33" /></a></td>
+    <td align="center"><a href="<?php echo site_url('back/official')?>">IDP</a></td>
     <td align="center">&nbsp;</td>
-    <td align="center"><a href="<?php echo site_url('back/status')?>"><img src="<?php echo base_url() ?>assets/images/gtptube.png" width="100" height="33" /></a></td>
+    <td align="center"><a href="<?php echo site_url('back/status')?>">Final Job Assignment</a></td>
     <td align="center">&nbsp;</td>
-    <td align="center"><a href="<?php echo site_url('back/gallery')?>"><img src="<?php echo base_url() ?>assets/images/gallery.png" width="100" height="33" /></a></td>
+    <td align="center"><a href="<?php echo site_url('back/gallery')?>">Candidate</a></td>
     <td align="center">&nbsp;</td>
-    <td align="center"><a href="<?php echo site_url('back/announcement')?>"><img src="<?php echo base_url() ?>assets/images/announcement.png" width="100" height="33" /></a></td>
+    <td align="center"><a href="<?php echo site_url('back/announcement')?>">GTA Assignment</a></td>
     <td>&nbsp;</td>
 </tr>
 <tr>

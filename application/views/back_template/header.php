@@ -49,11 +49,7 @@
 
                         foreach($menu as $row){
 
-                            ?>
-                            <a href="<?php echo site_url("$row->link")?>">
-                                <img src="<?php echo base_url() ?>assets/images/<?php echo $row->icon; ?>" alt="" width="83" height="40" border="0" id="Image2" /></a>
-                        <?php
-
+                            ?><a href="<?php echo site_url("$row->link")?>"><img src="<?php echo base_url() ?>assets/images/<?php echo $row->icon; ?>" style="margin:0px" width="<?php echo $row->width; ?>" height="<?php echo $row->height; ?>" border="0"/></a><?php
                         }
 
                         ?>
