@@ -57,5 +57,19 @@ class Event extends CI_Controller{
 
     }
 
+    public function detail($id){
+        $query = "select * from event where id = ".$id;
+        $row = $this->db->query($query)->row();
+
+        $queryTypeEv = "select * from type_event where id  = ".$row->id_type_event;
+        $row_type_event = $this->db->query($queryTypeEv)->row();
+
+        $data['data_event'] = $row;
+        $data['tipe_event'] = $row_type_event;
+
+        $this->load->view('front_view/detail/event_detail.php', $data);
+
+    }
+
 
 } 

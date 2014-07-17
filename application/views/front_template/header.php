@@ -12,6 +12,12 @@
     </style>
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/front.css" />
     <script type="javascript" src="<?php echo base_url() ?>assets/js/front.js"></script>
+    <script type="javascript">
+        function openNewWindow(theURL,winName,features) { //v2.0
+            window.open(theURL,winName,features);
+        }
+
+    </script>
 </head>
 
 <body onload="MM_preloadImages('<?php echo base_url() ?>assets/images/profile2.png','<?php echo base_url() ?>assets/images/map2.png','<?php echo base_url() ?>assets/images/home2.png','<?php echo base_url() ?>assets/images/agenda2.png','<?php echo base_url() ?>assets/images/event2.png','<?php echo base_url() ?>assets/images/knowledge2.png','<?php echo base_url() ?>assets/images/experience2.png','<?php echo base_url() ?>assets/images/hotnews2.png','<?php echo base_url() ?>assets/images/overseas2.png','<?php echo base_url() ?>assets/images/tube2.png','<?php echo base_url() ?>assets/images/gallery2.png')">

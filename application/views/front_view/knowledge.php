@@ -8,7 +8,7 @@ foreach($data_knowledge as $knowledge){
         <p class="pr">
             <? echo $knowledge->description ?>
         </p>
-        <div style="text-align:right;float:right; width:100%">read more..</div>
+        <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="window.open('<?php echo site_url('front/knowledge/detail/'.$knowledge->id)?>','','width=800,height=600')">Read More..</a></div>
     </div>
 
 <?php

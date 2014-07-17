@@ -58,4 +58,19 @@ class knowledge extends CI_Controller {
     }
 
 
+    public function detail($id){
+        $query = "select * from other_knowledge where id =".$id;
+        $row_knowledge = $this->db->query($query)->row();
+        $query_category = "select * from category where id = ".$row_knowledge->id_category;
+        $row_category = $this->db->query($query_category)->row();
+
+
+        $data['knowledge_detail'] = $row_knowledge;
+        $data['category'] = $row_category;
+        $this->load->view('front_view/detail/knowledge_detail.php', $data);
+
+
+    }
+
+
 } 

@@ -57,4 +57,15 @@ class Agenda extends CI_Controller {
 
     }
 
+
+    public function detail($id){
+        $query = "select * from agenda where id = ".$id;
+        $row = $this->db->query($query)->row();
+
+        $data['agenda_detail'] = $row;
+
+        $this->load->view('front_view/detail/agenda_detail.php', $data);
+
+    }
+
 } 

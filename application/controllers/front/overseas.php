@@ -56,4 +56,14 @@ class Overseas extends CI_Controller {
 
     }
 
+    public function detail($id){
+        $query = "select * from overseas_gtp_news where id = ".$id;
+        $row = $this->db->query($query)->row();
+
+        $data['overseas_detail'] = $row;
+
+        $this->load->view('front_view/detail/overseas_detail.php', $data);
+
+    }
+
 } 
