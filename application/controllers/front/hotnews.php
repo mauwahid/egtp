@@ -58,4 +58,16 @@ class Hotnews extends CI_Controller {
     }
 
 
+        public function detail($id){
+            $query = "select * from gtp_hot_news where id = ".$id;
+            $row = $this->db->query($query)->row();
+
+            $data['hotnews_detail'] = $row;
+
+            $this->load->view('front_view/detail/news_detail.php', $data);
+
+        }
+
+
+
 } 

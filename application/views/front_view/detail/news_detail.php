@@ -100,17 +100,17 @@
         <td height="219" align="left" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png"><table width="548" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td height="29" colspan="3"><label>
-                            <input name="title" type="text" id="title" value="title" size="50" readonly="readonly" />
+                            <input name="title" type="text" id="title" value="<?php echo $hotnews_detail->title; ?>" size="50" readonly="readonly" />
                         </label></td>
                 </tr>
                 <tr>
-                    <td width="145" height="30"><input name="category" type="text" id="category" value="status" size="20" readonly="readonly" /></td>
-                    <td width="210"><input name="publisher" type="text" id="publisher" value="publisher" size="30" readonly="readonly" /></td>
-                    <td width="193"><input name="status" type="text" id="status" value="date" size="20" readonly="readonly" /></td>
+                    <td width="145" height="30"><input name="category" type="text" id="category" value="<?php echo $hotnews_detail->status; ?>" size="20" readonly="readonly" /></td>
+                    <td width="210"><input name="publisher" type="text" id="publisher" value="<?php echo $hotnews_detail->publisher; ?>" size="30" readonly="readonly" /></td>
+                    <td width="193"><input name="status" type="text" id="status" value="<?php echo $hotnews_detail->status ?>" size="20" readonly="readonly" /></td>
                 </tr>
                 <tr>
                     <td height="128" colspan="3" align="center"><label>
-                            <textarea name="desc" id="desc" cols="80" rows="10"></textarea>
+                            <textarea name="desc" id="desc" cols="80" rows="10"><?php echo $hotnews_detail->description; ?></textarea>
                         </label></td>
                 </tr>
             </table></td>

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Jul 15, 2014 at 12:09 PM
+-- Generation Time: Jul 17, 2014 at 05:22 PM
 -- Server version: 5.6.19
 -- PHP Version: 6.0.0-dev
 
@@ -255,8 +255,8 @@ CREATE TABLE `agenda` (
 -- Dumping data for table `agenda`
 -- 
 
-INSERT INTO `agenda` VALUES (1, 'lumut', 'Agenda neng lumut..', 'Jakarta', '2014-07-15', '2014-07-22', '13:23', '2014-07-29', 'mau', 'mau');
-INSERT INTO `agenda` VALUES (2, 'Menikah', 'Salam. Pernikahan Maulana dengan Tatat Nuraeni    ', 'Bandung', '2014-07-22', '2014-07-15', '11:00', '2014-07-08', 'Jakarta', 'Jakarta');
+INSERT INTO `agenda` VALUES (1, 'lumut', 'ljlajflajflaf', 'Jakarta', '2014-07-15', '2014-07-22', '13:23', '2014-07-29', 'mau', 'mau');
+INSERT INTO `agenda` VALUES (2, 'Menikah', 'Test Stesdadad', 'Bandung', '2014-07-22', '2014-07-15', '11:00', '2014-07-08', 'Jakarta', 'Jakarta');
 INSERT INTO `agenda` VALUES (3, 'hkjhkjh', 'jkhkjh    jhkj', 'khkjh', '2014-07-15', '2014-07-07', '131', '2014-07-22', '313', '1313');
 
 -- --------------------------------------------------------
@@ -493,9 +493,9 @@ CREATE TABLE `cand_assg_mentor` (
 -- 
 
 CREATE TABLE `category` (
-  `category_id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(25) NOT NULL,
-  PRIMARY KEY (`category_id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 -- 
@@ -13149,7 +13149,7 @@ CREATE TABLE `other_knowledge` (
   `title` varchar(50) NOT NULL,
   `description` varchar(200) NOT NULL,
   `file` varchar(255) NOT NULL,
-  `category` varchar(255) NOT NULL,
+  `id_category` int(11) NOT NULL,
   `status` varchar(10) NOT NULL,
   `make_date` date NOT NULL,
   `uploader` varchar(25) NOT NULL,
@@ -13161,9 +13161,9 @@ CREATE TABLE `other_knowledge` (
 -- Dumping data for table `other_knowledge`
 -- 
 
-INSERT INTO `other_knowledge` VALUES (1, 'iouoiu', 'oiuoi', 'oiuoi', 'oiu', 'oiuoi', '2014-06-02', 'oiuoiu', 'iouoi');
-INSERT INTO `other_knowledge` VALUES (2, 'oioiuo', 'iuoi', 'uoi', 'uoiu', 'ooiuo', '2014-06-02', 'oiuoi', 'uiou');
-INSERT INTO `other_knowledge` VALUES (3, 'fakjfak', 'hjkjhkj', '', 'fafaf', 'hjkjh', '2014-07-21', 'jhkjh', 'jkhkj');
+INSERT INTO `other_knowledge` VALUES (1, 'iouoiu', 'oiuoi', 'oiuoi', 1, 'oiuoi', '2014-06-02', 'oiuoiu', 'iouoi');
+INSERT INTO `other_knowledge` VALUES (2, 'oioiuo', 'iuoi', 'uoi', 2, 'ooiuo', '2014-06-02', 'oiuoi', 'uiou');
+INSERT INTO `other_knowledge` VALUES (3, 'fakjfak', 'hjkjhkj', '', 3, 'hjkjh', '2014-07-21', 'jhkjh', 'jkhkj');
 
 -- --------------------------------------------------------
 
@@ -13838,12 +13838,14 @@ CREATE TABLE `type_event` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=99 ;
 
 -- 
 -- Dumping data for table `type_event`
 -- 
 
+INSERT INTO `type_event` VALUES (2, 'Type 2');
+INSERT INTO `type_event` VALUES (98, 'Type 1');
 
 -- --------------------------------------------------------
 
