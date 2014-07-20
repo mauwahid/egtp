@@ -1,3 +1,4 @@
+
 <?php
 
 foreach($data_hotnews as $hotnews){
@@ -11,7 +12,10 @@ foreach($data_hotnews as $hotnews){
         <p class="pr">
             <? echo $hotnews->description ?>
         </p>
-        <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="window.open('<?php echo site_url('front/hotnews/detail/'.$hotnews->id)?>','','width=800,height=600')">Read More..</a></div>
+        <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="loadDialog('<?php echo site_url('front/hotnews/detail/'.$hotnews->id)?>')" >Read More..</a>
+
+        <button onclick="test();"  > Cek apa aja</button>
+        </div>
     </div>
 
 <?php

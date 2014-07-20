@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/prettyPhoto.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/agenda.php" afterPath="$PROJECT_DIR$/application/views/front_view/agenda.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php" afterPath="$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/event.php" afterPath="$PROJECT_DIR$/application/views/front_view/event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/experience.php" afterPath="$PROJECT_DIR$/application/views/front_view/experience.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/front.js" afterPath="$PROJECT_DIR$/assets/js/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_template/header.php" afterPath="$PROJECT_DIR$/application/views/front_template/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/home.php" afterPath="$PROJECT_DIR$/application/views/front_view/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/hotnews.php" afterPath="$PROJECT_DIR$/application/views/front_view/hotnews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/knowledge.php" afterPath="$PROJECT_DIR$/application/views/front_view/knowledge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/overseas.php" afterPath="$PROJECT_DIR$/application/views/front_view/overseas.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="egtp.iws" />
@@ -29,7 +48,70 @@
       <file leaf-file-name="agenda.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="328" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
+            <state line="11" column="10" selection-start="423" selection-end="495" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="188" selection-start="745" selection-end="745" vertical-scroll-proportion="-12.346154" vertical-offset="36" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experience.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/experience.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="202" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="22" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="1377">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agenda_detail.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="14" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-3.4313726" vertical-offset="896" max-vertical-offset="2567">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overseas.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="10" selection-start="372" selection-end="372" vertical-scroll-proportion="0.39818183" vertical-offset="36" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knowledge.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/knowledge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="10" selection-start="353" selection-end="526" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -38,48 +120,10 @@
       <file leaf-file-name="hotnews.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/front_view/hotnews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="23" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.34" vertical-offset="459" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overseas.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overseas.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/front/overseas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="53" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overseas_detail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/overseas_detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="19" selection-start="4579" selection-end="4579" vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2380">
+            <state line="14" column="136" selection-start="600" selection-end="600" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
               <folding>
-                <marker date="1405587385610" expanded="true" signature="4032:4063" placeholder="..." />
-                <marker date="1405587385610" expanded="true" signature="4601:4633" placeholder="..." />
-                <marker date="1405587385610" expanded="true" signature="4673:4717" placeholder="..." />
-                <marker date="1405587385610" expanded="true" signature="4914:4933" placeholder="..." />
+                <element signature="e#477#525#0" expanded="true" />
+                <element signature="e#556#578#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,40 +132,13 @@
       <file leaf-file-name="news_detail.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/news_detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="123" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.0" vertical-offset="1625" max-vertical-offset="2380">
+            <state line="112" column="123" selection-start="4790" selection-end="4790" vertical-scroll-proportion="-10.730769" vertical-offset="1625" max-vertical-offset="2380">
               <folding>
                 <marker date="1405588870857" expanded="true" signature="4028:4059" placeholder="..." />
                 <marker date="1405588870857" expanded="true" signature="4593:4625" placeholder="..." />
                 <marker date="1405588870857" expanded="true" signature="4665:4709" placeholder="..." />
                 <marker date="1405588870857" expanded="true" signature="4905:4924" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agenda_detail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="77" selection-start="2469" selection-end="2507" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2703">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agenda.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/front/agenda.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="5" selection-start="1496" selection-end="1751" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotnews.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/front/hotnews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="44" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1326">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/images_examples.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/gallery.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/gallery.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/gallery.php" />
@@ -169,27 +185,28 @@
         <option value="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/mentor.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/predep.php" />
-        <option value="$PROJECT_DIR$/application/views/front_template/header.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/popupContent.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/agenda.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/event.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/event.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/detail/event_detail.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/detail/knowledge_detail.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/knowledge.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/knowledge.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/experience.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/experience.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/detail/experience_detail.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/agenda.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/overseas.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/overseas.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/detail/overseas_detail.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/hotnews.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/detail/news_detail.php" />
-        <option value="$PROJECT_DIR$/application/views/front_view/hotnews.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/home.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/hotnews.php" />
+        <option value="$PROJECT_DIR$/application/views/front_template/header.php" />
+        <option value="$PROJECT_DIR$/assets/js/front.js" />
+        <option value="$PROJECT_DIR$/application/views/front_view/event.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/experience.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/knowledge.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/agenda.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php" />
+        <option value="$PROJECT_DIR$/application/views/front_view/overseas.php" />
       </list>
     </option>
   </component>
@@ -231,7 +248,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,20 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,70 +346,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,11 +365,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AppServ\www\egtp\assets\js\jquery" />
+      <recent name="C:\AppServ\www\egtp\assets\css" />
       <recent name="C:\AppServ\www\egtp\assets\images" />
       <recent name="C:\AppServ\www\egtp\assets\uploads" />
       <recent name="C:\AppServ\www\egtp\application\views" />
-      <recent name="C:\AppServ\www\egtp\application\libraries" />
-      <recent name="C:\AppServ\www\egtp\application\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\AppServ\www\egtp\assets" />
@@ -510,36 +451,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/back/slideshow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="144" selection-end="1588" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_view/webcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="20" selection-start="3506" selection-end="3506" vertical-scroll-proportion="-37.923077" vertical-offset="0" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/back/webcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="246" selection-end="246" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_gtp/flow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_template/gtp_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="3854" selection-end="3854" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_view/gtp_process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="66" selection-start="4697" selection-end="4697" vertical-scroll-proportion="-19.192308" vertical-offset="725" max-vertical-offset="1394" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/gtp/candidate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="7" selection-start="1069" selection-end="1133" vertical-scroll-proportion="-15.769231" vertical-offset="355" max-vertical-offset="918" />
@@ -655,11 +566,6 @@
         <state line="6" column="4" selection-start="98" selection-end="98" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="97" selection-start="2434" selection-end="2471" vertical-scroll-proportion="-8.076923" vertical-offset="504" max-vertical-offset="1207" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/back/agenda.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="4" selection-start="330" selection-end="330" vertical-scroll-proportion="-0.0" vertical-offset="255" max-vertical-offset="884" />
@@ -670,19 +576,9 @@
         <state line="29" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3709091" vertical-offset="204" max-vertical-offset="850" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.3461537" vertical-offset="49" max-vertical-offset="612" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/front/event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="25" selection-start="1795" selection-end="1795" vertical-scroll-proportion="-16.423077" vertical-offset="610" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/knowledge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="353" selection-end="553" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/event_detail.php">
@@ -710,68 +606,14 @@
         <state line="99" column="100" selection-start="3607" selection-end="3644" vertical-scroll-proportion="-9.769231" vertical-offset="1429" max-vertical-offset="2397" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/experience.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="195" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/front/overseas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="53" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/overseas_detail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="19" selection-start="4579" selection-end="4579" vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2380">
           <folding>
-            <marker date="1405587385610" expanded="true" signature="4032:4063" placeholder="..." />
-            <marker date="1405587385610" expanded="true" signature="4601:4633" placeholder="..." />
-            <marker date="1405587385610" expanded="true" signature="4673:4717" placeholder="..." />
-            <marker date="1405587385610" expanded="true" signature="4914:4933" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="77" selection-start="2469" selection-end="2507" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="328" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/front/agenda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="1496" selection-end="1751" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/news_detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="123" selection-start="4790" selection-end="4790" vertical-scroll-proportion="0.0" vertical-offset="1625" max-vertical-offset="2380">
-          <folding>
-            <marker date="1405588870857" expanded="true" signature="4028:4059" placeholder="..." />
-            <marker date="1405588870857" expanded="true" signature="4593:4625" placeholder="..." />
-            <marker date="1405588870857" expanded="true" signature="4665:4709" placeholder="..." />
-            <marker date="1405588870857" expanded="true" signature="4905:4924" placeholder="..." />
+            <marker date="1405587385610" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405587385610" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405587385610" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1405587385610" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -783,16 +625,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/hotnews.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/prettyPhoto.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/overseas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="53" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-15.115385" vertical-offset="610" max-vertical-offset="1173">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery/jquery-ui.theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.2760417" vertical-offset="1887" max-vertical-offset="200090">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="87" selection-start="747" selection-end="747" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="27" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/front/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="5" selection-start="1496" selection-end="1751" vertical-scroll-proportion="-16.423077" vertical-offset="644" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/news_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="123" selection-start="4790" selection-end="4790" vertical-scroll-proportion="-10.730769" vertical-offset="1625" max-vertical-offset="2380">
+          <folding>
+            <marker date="1405588870857" expanded="true" signature="4028:4059" placeholder="..." />
+            <marker date="1405588870857" expanded="true" signature="4593:4625" placeholder="..." />
+            <marker date="1405588870857" expanded="true" signature="4665:4709" placeholder="..." />
+            <marker date="1405588870857" expanded="true" signature="4905:4924" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="23" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.34" vertical-offset="459" max-vertical-offset="1377">
+        <state line="36" column="22" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/hotnews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="136" selection-start="600" selection-end="600" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="e#477#525#0" expanded="true" />
+            <element signature="e#556#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/experience.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="202" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/knowledge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="353" selection-end="526" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="188" selection-start="745" selection-end="745" vertical-scroll-proportion="-12.346154" vertical-offset="36" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/agenda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="423" selection-end="495" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/detail/agenda_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="14" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-3.4313726" vertical-offset="896" max-vertical-offset="2567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/overseas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="372" selection-end="372" vertical-scroll-proportion="0.39818183" vertical-offset="36" max-vertical-offset="612">
           <folding />
         </state>
       </provider>

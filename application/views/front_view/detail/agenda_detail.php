@@ -58,18 +58,10 @@
         }
         -->
     </style>
-    <script type="text/javascript">
-        <!--
-        function MM_preload<?php echo base_url() ?>assets/images() { //v3.0
-            var d=document; if(d.<?php echo base_url() ?>assets/images){ if(!d.MM_p) d.MM_p=new Array();
-                var i,j=d.MM_p.length,a=MM_preload<?php echo base_url() ?>assets/images.arguments; for(i=0; i<a.length; i++)
-                    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-        }
-        //-->
-    </script>
+
 </head>
 
-<body onload="MM_preload<?php echo base_url() ?>assets/images('<?php echo base_url() ?>assets/images/map2.png')">
+<body onload="">
 <table width="800" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
     <tr>
         <td width="57" align="center" bgcolor="#D50000">&nbsp;</td>

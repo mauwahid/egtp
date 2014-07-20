@@ -19,7 +19,7 @@ foreach($data_event as $event){
     <p class="pr">
         <? echo $event->title ?>
     </p>
-    <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="window.open('<?php echo site_url('front/event/detail/'.$event->id)?>','','width=800,height=600')">Read More..</a></div>
+    <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="loadDialog('<?php echo site_url('front/event/detail/'.$event->id)?>')">Read More..</a></div>
     </div>
 
     <?php

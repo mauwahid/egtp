@@ -11,7 +11,7 @@ foreach($data_experience as $experience){
         <p class="pr">
             <? echo $experience->description ?>
         </p>
-        <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="window.open('<?php echo site_url('front/experience/detail/'.$experience->id)?>','','width=800,height=600')">Read More..</a></div>
+        <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="loadDialog('<?php echo site_url('front/experience/detail/'.$experience->id)?>')">Read More..</a></div>
     </div>
 
 <?php
