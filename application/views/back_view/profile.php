@@ -1,7 +1,7 @@
     <tr>
         <td width="100px" align="left">
-            <img width="100px" src="<?php echo base_url() ?>assets/images/iconslideshow.png" />
-            <img width="100px" src="<?php echo base_url() ?>assets/images/iconslideshow.png" />
+            <img width="100px" src="<?php echo base_url() ?>assets/images/icon_biodata.png" />
+            <img width="100px" src="<?php echo base_url() ?>assets/images/icon_history_biodata.png" />
         </td>
     </tr>
     <tr>
@@ -12,7 +12,7 @@
 
         </td>
         <td>
-            <img width="100px" src="<?php echo base_url() ?>assets/images/slideshow.png" />
+            <img width="100px" src="<?php echo base_url() ?>assets/images/btn_edit_profile.png" />
         </td>
     </tr>
     <tr>
@@ -156,7 +156,7 @@
 
         </td>
         <td>
-            <img width="100px" src="<?php echo base_url() ?>assets/images/slideshow.png" />
+            <img width="100px" src="<?php echo base_url() ?>assets/images/btn_update.png" />
         </td>
     </tr>
     <tr>
