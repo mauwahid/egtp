@@ -14,7 +14,6 @@ foreach($data_hotnews as $hotnews){
         </p>
         <div style="text-align:right;float:right; width:100%"><a href="javascript:void(0);" style="color: #000000" onclick="loadDialog('<?php echo site_url('front/hotnews/detail/'.$hotnews->id)?>')" >Read More..</a>
 
-        <button onclick="test();"  > Cek apa aja</button>
         </div>
     </div>
 

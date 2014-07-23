@@ -53,7 +53,7 @@ class Slideshow extends  CI_Controller {
         $data['menu'] = $result;
 
         $this->load->view('back_template/header.php', $data);
-        $this->load->view('back_template/gtp_menu.php', $data);
+        $this->load->view('back_template/webcontent_menu.php', $data);
         $this->load->view('back_view/crud_table.php', $data);
         $this->load->view('back_template/footer.php');
     }

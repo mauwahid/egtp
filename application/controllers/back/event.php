@@ -26,7 +26,7 @@ class Event extends CI_Controller {
         $crud = new grocery_CRUD();
         $crud->set_table('event');
         $crud->set_subject('Event');
-        $crud->set_field_upload('file','assets/uploads/files');
+        $crud->set_field_upload('image','assets/uploads/files');
 
         //     $crud->set_crud_url_path(site_url(strtolower(__CLASS__."/".__FUNCTION__)),site_url(strtolower(__CLASS__."/multigrids")));
 

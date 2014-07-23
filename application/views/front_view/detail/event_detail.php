@@ -16,7 +16,7 @@
             font-weight: bold;
         }
         body {
-            background-image: url(src="<?php echo base_url() ?>assets/images/2014-05-27_110304.png);
+            background-image: url(<?php echo base_url() ?>assets/images/2014-05-27_110304.png);
             background-repeat: repeat-x;
         }
         .up {
@@ -69,45 +69,37 @@
     </script>
 </head>
 
-<body onload="MM_preloadImages('src="<?php echo base_url() ?>assets/images/map2.png')">
+<body onload="MM_preloadImages('<?php echo base_url() ?>assets/images/map2.png')">
 <table width="800" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
     <tr>
         <td width="57" align="center" bgcolor="#D50000">&nbsp;</td>
         <td width="743" height="2" align="center" bgcolor="#D50000">&nbsp;</td>
     </tr>
     <tr>
-        <td align="center" background="<?php echo base_url() ?>assets/images/2014-05-27_105756.png">&nbsp;</td>
-        <td height="139" align="left" background="src="<?php echo base_url() ?>assets/images/2014-05-27_105756.png"><table width="500" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td width="978"><img src="<?php echo base_url() ?>assets/images/2014-05-22_164636.png" width="164" height="108" /></td>
-                </tr>
-            </table></td>
-    </tr>
-    <tr>
         <td align="left" bgcolor="#D50000">&nbsp;</td>
-        <td height="40" align="left" bgcolor="#D50000"><strong class="csaf">VIEW EVENT</strong></td>
+        <td height="30" align="left" bgcolor="#D50000"><strong class="csaf">Detail Event</strong></td>
     </tr>
     <tr>
         <td align="center" bgcolor="#FFFFFF">&nbsp;</td>
         <td height="25" align="left" bgcolor="#FFFFFF"><table width="500" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td height="32"><strong class="up">CONTENT WEB <span class="csa">&gt; Event &gt; View Event</span></strong></td>
                 </tr>
             </table></td>
     </tr>
     <tr>
         <td align="left" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png">&nbsp;</td>
-        <td height="219" align="left" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png"><table width="400" border="0" cellspacing="0" cellpadding="0">
+        <td height="219" align="left" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png"><table width="500" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td width="400" height="29"><label>
-                            <input name="title" type="text" id="title"  size="50" readonly="readonly" value="<?php echo $data_event->title; ?>"/>
-                        </label></td>
-                </tr>
-                <tr>
-                    <td height="30"><input name="status" type="text" id="status" size="30" readonly="readonly" value="<?php echo $tipe_event->name; ?>" /></td>
-                </tr>
-                <tr>
-                    <td height="128" align="center"><img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $data_event->file; ?>" width="183" height="169" /></td>
+                    <td>
+                        <p><span class="title"><?php echo $data_event->title ?></span>  </p>
+                        <p> <span class="title"><?php echo $tipe_event->name ?></span> </p>
+                        <p><div class="title"><?php echo $data_event->place ?> , <?php echo $data_event->tanggal?> Pukul <?php echo $data_event->time ?> </div> </p>
+                        <div class="pic-experience">
+                            <img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $data_event->image; ?>" width="100px" height="100px" />
+                        </div>
+                        <p><?php echo $data_event->description ?></p>
+                    </td>
+
                 </tr>
             </table></td>
     </tr>
@@ -116,9 +108,9 @@
         <td height="36" align="center" valign="bottom"bgcolor="#FFFFFF"><img src="<?php echo base_url() ?>assets/images/2013-11-21_165755.png" alt="" width="710" height="27" /></td>
     </tr>
     <tr>
-        <td height="97" colspan="2" align="center" valign="middle"bgcolor="#666666"><table width="500" border="0" cellspacing="0" cellpadding="0">
+        <td height="50" colspan="2" align="center" valign="middle"bgcolor="#666666"><table width="500" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td height="29" align="center" class="hh"><a href="home.html">Home</a> | <a href="profile.html">Profile</a> | <a href="content.html">Content Web</a> | <a href="map.html">MAP</a> | <a href="gtp.html">GTP</a> | <a href="cola.html">COLA</a> | <a href="roti.html">ROTI</a> | <a href="dashboard.html">Dashboard</a></td>
+                    <td height="29" align="center" class="hh"></td>
                 </tr>
                 <tr>
                     <td height="29" align="center" class="hh">Copyright @ 2014 by Telkom Indonesia</td>

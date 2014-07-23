@@ -22,10 +22,13 @@ class Tube extends CI_Controller {
         $this->config->load('grocery_crud');
         $this->config->set_item('grocery_crud_dialog_forms',true);
         $this->config->set_item('grocery_crud_default_per_page',10);
+        $this->config->set_item('grocery_crud_file_upload_allow_file_types','mp4|ogg|swf');
 
         $crud = new grocery_CRUD();
         $crud->set_table('gtp_tube');
         $crud->set_subject('Tube');
+        $crud->set_field_upload('video','assets/uploads/videos');
+
 
         //     $crud->set_crud_url_path(site_url(strtolower(__CLASS__."/".__FUNCTION__)),site_url(strtolower(__CLASS__."/multigrids")));
 

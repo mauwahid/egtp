@@ -6,7 +6,7 @@ foreach($data_event as $event){
     ?>
     <div class="agenda">
         <p class="title"> <? echo $event->title ?></p>
-        <p class="date-title"><? echo $event->make_date ?></p>
+        <p class="date-title"><? echo $event->tanggal ?></p>
         <?php if($no % 2 == 0){
             echo "<div class='pic-experience'>";
         }else{
@@ -14,7 +14,7 @@ foreach($data_event as $event){
         }
 
         ?>
-        <img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $event->file; ?>" width="100px" height="100px" />
+        <img src="<?php echo base_url() ?>assets/uploads/files/<?php echo $event->image; ?>" width="100px" height="100px" />
     </div>
     <p class="pr">
         <? echo $event->title ?>

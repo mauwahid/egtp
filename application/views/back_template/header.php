@@ -67,9 +67,9 @@
             </table></td>
     </tr>
     <tr>
-        <td height="364" align="center" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png"><table width="800" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td height="23">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td><table width="800" border="0" cellpadding="0" cellspacing="0">
+                            <td height="364" align="center" valign="top" background="<?php echo base_url() ?>assets/images/2014-05-27_110304.png"><table width="800" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td height="23">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><table width="800" border="0" cellpadding="0" cellspacing="0">
