@@ -42,4 +42,79 @@ class Home extends CI_Controller {
         return $data->result();
     }
 
+
+    public function login(){
+        $username = $this->input->post('username');
+        $password = $this->input->post('password');
+
+        $passSHA = $this->encrypt->encode($password);
+
+        $cekCandidate = "select * from candidate where candidate.username = '".$username."' and candidate.password = '".$password."'";
+        $cekMentor = "select * from mentor where username = '".$username."' and password ='".$password."'";
+        $cekAdmin = "select * from user where username ='".$username."' and password = '".$password."'";
+        $cekAsesor = "select * from assesor where username ='".$username."' and password = '".$password."'";
+        $cekEksekutif = "select * from eksekutif where username ='".$username."' and password = '".$password."'";
+        $cekFinance = "select * from finance where username ='".$username."' and password = '".$password."'";
+
+        $resCandidate = $this->db->query($cekCandidate)->row();
+       $resMentor = $this->db->query($cekMentor)->row();
+        $resAdmin = $this->db->query($cekAdmin)->row();
+        $resAsesor = $this->db->query($cekAsesor)->row();
+        $resEksekutif = $this->db->query($cekEksekutif)->row();
+        $resFinance = $this->db->query($cekFinance)->row();
+
+
+        if($resCandidate){
+            $this->loadMenu($resCandidate);
+        }else if($resMentor){
+            $this->loadMenu($resMentor);
+
+        }else if($resAsesor){
+            $this->loadMenu($resAsesor);
+
+        }else if($resEksekutif){
+            $this->loadMenu($resEksekutif);
+
+        }else if($resFinance){
+            $this->loadMenu($resFinance);
+
+        }
+
+    }
+
+    public function loadMenu($result){
+
+        $id_privilige = $result->id_privilige;
+        $menu_privilige = "select * from menu, menu_privilige where menu.id = menu_privilige.id_menu and menu_privilige.id_privilige = ".$id_privilige. "
+        order by menu.order asc";
+        $res_menu_privilige = $this->db->query($menu_privilige)->result();
+
+        $data['menu'] = $res_menu_privilige;
+     //   $data['title'] = "Slide Show";
+
+        $this->load->view('back_template/header.php', $data);
+        $this->load->view('back_template/home.php', $data);
+     //   $this->load->view('back_view/crud_table.php', $data);
+        $this->load->view('back_template/footer.php');
+
+
+
+    }
+
+    public function loadMentor($result){
+
+    }
+
+    public function loadAssesor($result){
+
+    }
+
+    public function loadEksekutif($result){
+
+    }
+
+    public function loadFinance($result){
+
+    }
+
 } 
