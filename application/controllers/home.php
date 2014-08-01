@@ -78,6 +78,8 @@ class Home extends CI_Controller {
         }else if($resFinance){
             $this->loadMenu($resFinance);
 
+        }else if($resAdmin){
+            $this->loadMenu($resAdmin);
         }
 
     }
@@ -91,6 +93,13 @@ class Home extends CI_Controller {
 
         $data['menu'] = $res_menu_privilige;
      //   $data['title'] = "Slide Show";
+
+        $login_status = "OK";
+        $this->session->set_userdata('login_status',$login_status);
+        $this->session->set_userdata('username', $result->username);
+        $this->session->set_userdata('id_privilige', $id_privilige);
+
+
 
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_template/home.php', $data);

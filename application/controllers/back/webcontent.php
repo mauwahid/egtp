@@ -17,6 +17,8 @@ class Webcontent extends CI_Controller{
         $data['css_files'] = Array("null","null");
         $data['js_files'] = Array("null","null");
         $data['title'] = "";
+        $id_privilige = $this->session->userdata('id_privilige');
+        $data['menu'] =  $this->menu_setting->load_menu($id_privilige);
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_view/webcontent.php');
         $this->load->view('back_template/footer.php');

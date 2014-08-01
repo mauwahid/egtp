@@ -41,6 +41,8 @@ class Experience extends CI_Controller {
         $data['output'] = $out->output;
         $data['css_files'] = $out->css_files;
         $data['js_files'] = $out->js_files;
+        $id_privilige = $this->session->userdata('id_privilige');
+        $data['menu'] =  $this->menu_setting->load_menu($id_privilige);
 
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_template/webcontent_menu.php', $data);

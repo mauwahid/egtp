@@ -49,4 +49,6 @@ class Agenda extends CI_Controller {
         $this->load->view('back_view/crud_table.php', $data);
         $this->load->view('back_template/footer.php');
     }
+
+
 } 

@@ -36,14 +36,15 @@ class Gtp_process extends CI_Controller{
 
     function render_output($out){
 
-        $query = "Select * from menu ";
-        $result = $this->db->query($query)->result();
+     //   $query = "Select * from menu ";
+       // $result = $this->db->query($query)->result();
 
         $data['title'] = "Slide Show";
         $data['output'] = $out->output;
         $data['css_files'] = $out->css_files;
         $data['js_files'] = $out->js_files;
-        $data['menu'] = $result;
+        $id_privilige = $this->session->userdata('id_privilige');
+        $data['menu'] =  $this->menu_setting->load_menu($id_privilige);
 
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_template/gtp_menu.php', $data);
