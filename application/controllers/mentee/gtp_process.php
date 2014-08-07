@@ -47,7 +47,7 @@ class Gtp_process extends CI_Controller{
         $data['menu'] =  $this->menu_setting->load_menu($id_privilige);
 
         $this->load->view('back_template/header.php', $data);
-        $this->load->view('back_template/gtp_menu.php', $data);
+        $this->load->view('back_mentee/gtp_menu.php', $data);
         $this->load->view('back_mentee/flow.php');
         $this->load->view('back_template/footer.php');
     }

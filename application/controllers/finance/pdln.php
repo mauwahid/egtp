@@ -2,13 +2,13 @@
 /**
  * Created by PhpStorm.
  * User: Maulana Wahid A
- * Date: 6/28/14
- * Time: 2:47 PM
+ * Date: 8/7/14
+ * Time: 2:12 PM
  */
 
 
-class Assesment extends  CI_Controller {
 
+class Pdln extends CI_Controller {
 
     public function __construct()
     {
@@ -28,8 +28,8 @@ class Assesment extends  CI_Controller {
         $this->config->set_item('grocery_crud_file_upload_allow_file_types','gif|jpeg|jpg|png');
 
         $crud = new grocery_CRUD();
-        $crud->set_table('slide_show');
-        $crud->set_subject('Slide Show');
+        $crud->set_table('pdln');
+        $crud->set_subject('PDLN');
         $crud->field_type('status','dropdown',
             array('0' => 'Hide', '1' => 'Show'));
 
@@ -46,7 +46,7 @@ class Assesment extends  CI_Controller {
         $query = "Select * from menu ";
         $result = $this->db->query($query)->result();
 
-        $data['title'] = "Slide Show";
+        $data['title'] = "PDLN";
         $data['output'] = $out->output;
         $data['css_files'] = $out->css_files;
         $data['js_files'] = $out->js_files;
@@ -60,5 +60,4 @@ class Assesment extends  CI_Controller {
     }
 
 
-
-}
+} 

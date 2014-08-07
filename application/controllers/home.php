@@ -99,14 +99,16 @@ class Home extends CI_Controller {
         $this->session->set_userdata('username', $result->username);
         $this->session->set_userdata('id_privilige', $id_privilige);
 
+        $this->load_view($data);
 
+    }
+
+    public function load_view($data){
 
         $this->load->view('back_template/header.php', $data);
         $this->load->view('back_template/home.php', $data);
-     //   $this->load->view('back_view/crud_table.php', $data);
+        //   $this->load->view('back_view/crud_table.php', $data);
         $this->load->view('back_template/footer.php');
-
-
 
     }
 
@@ -123,6 +125,26 @@ class Home extends CI_Controller {
     }
 
     public function loadFinance($result){
+
+    }
+
+    public function get_agenda(){
+
+    }
+
+    public function get_event(){
+
+    }
+
+    public function get_experience(){
+
+    }
+
+    public function get_knowledge(){
+
+    }
+
+    public function get_hotnews(){
 
     }
 
