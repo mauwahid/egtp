@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Jul 17, 2014 at 05:22 PM
+-- Generation Time: Aug 07, 2014 at 10:46 PM
 -- Server version: 5.6.19
 -- PHP Version: 6.0.0-dev
 
@@ -306,6 +306,26 @@ CREATE TABLE `announcement` (
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `assesment_scheme`
+-- 
+
+CREATE TABLE `assesment_scheme` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_scheme` varchar(20) NOT NULL,
+  `keterangan` varchar(200) NOT NULL,
+  `tanggal_dokumen` date NOT NULL,
+  `file` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `assesment_scheme`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `assesor`
 -- 
 
@@ -317,11 +337,32 @@ CREATE TABLE `assesor` (
   `batch` int(11) NOT NULL,
   `country` int(11) NOT NULL,
   `location` varchar(100) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `id_privilige` int(4) NOT NULL DEFAULT '4',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- 
 -- Dumping data for table `assesor`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `band`
+-- 
+
+CREATE TABLE `band` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `label` varchar(20) NOT NULL,
+  `keterangan` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `band`
 -- 
 
 
@@ -393,6 +434,8 @@ CREATE TABLE `candidate` (
   `id_predep` int(5) NOT NULL,
   `nik` varchar(20) NOT NULL,
   `name` varchar(20) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
   `band` varchar(5) NOT NULL,
   `position` varchar(20) NOT NULL,
   `division` varchar(20) NOT NULL,
@@ -401,15 +444,17 @@ CREATE TABLE `candidate` (
   `company` varchar(20) NOT NULL,
   `status` varchar(20) NOT NULL,
   `id_user` int(11) NOT NULL,
+  `id_privilige` int(11) NOT NULL DEFAULT '2',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- 
 -- Dumping data for table `candidate`
 -- 
 
-INSERT INTO `candidate` VALUES (1, 1, 1, '1313', 'maulana', '1', '1', '1', '1', '1', '1', '1', 1);
-INSERT INTO `candidate` VALUES (2, 2, 2, '2', 'Wahid', '2', '2', '2', '2', '2', '2', '2', 2);
+INSERT INTO `candidate` VALUES (1, 1, 1, '1313', 'maulana', '', '', '1', '1', '1', '1', '1', '1', '1', 1, 2);
+INSERT INTO `candidate` VALUES (2, 2, 2, '2', 'Wahid', '', '', '2', '2', '2', '2', '2', '2', '2', 2, 2);
+INSERT INTO `candidate` VALUES (3, 1, 1, '1', '1', 'maulana', 'wahid', '1', '1', '1', '1', '1', '1', '1', 1, 2);
 
 -- --------------------------------------------------------
 
@@ -422,12 +467,16 @@ CREATE TABLE `candidate_job_assignment` (
   `id_candidate` int(11) NOT NULL,
   `id_job_assignment` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 -- 
 -- Dumping data for table `candidate_job_assignment`
 -- 
 
+INSERT INTO `candidate_job_assignment` VALUES (1, 1, 1);
+INSERT INTO `candidate_job_assignment` VALUES (2, 1, 2);
+INSERT INTO `candidate_job_assignment` VALUES (3, 1, 3);
+INSERT INTO `candidate_job_assignment` VALUES (4, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -440,12 +489,14 @@ CREATE TABLE `candidate_pre_departure` (
   `id_candidate` int(11) NOT NULL,
   `id_pre_departure` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- 
 -- Dumping data for table `candidate_pre_departure`
 -- 
 
+INSERT INTO `candidate_pre_departure` VALUES (1, 1, 1);
+INSERT INTO `candidate_pre_departure` VALUES (2, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -537,6 +588,44 @@ CREATE TABLE `comment` (
 
 -- 
 -- Dumping data for table `comment`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `company`
+-- 
+
+CREATE TABLE `company` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `company`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `company_policy`
+-- 
+
+CREATE TABLE `company_policy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_dokumen` varchar(20) NOT NULL,
+  `keterangan` varchar(200) NOT NULL,
+  `tanggal_dokumen` date NOT NULL,
+  `file` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `company_policy`
 -- 
 
 
@@ -711,6 +800,42 @@ INSERT INTO `customers` VALUES (496, 'Kelly''s Gift Shop', 'Snowden', 'Tony', '+
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `directorate`
+-- 
+
+CREATE TABLE `directorate` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `directorate`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `division`
+-- 
+
+CREATE TABLE `division` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `division`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `document`
 -- 
 
@@ -741,6 +866,25 @@ CREATE TABLE `document_submission` (
 
 -- 
 -- Dumping data for table `document_submission`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `eksekutif`
+-- 
+
+CREATE TABLE `eksekutif` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `id_privilige` int(11) NOT NULL DEFAULT '5',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `eksekutif`
 -- 
 
 
@@ -800,19 +944,22 @@ CREATE TABLE `event` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `id_type_event` int(11) NOT NULL,
   `title` varchar(50) NOT NULL,
-  `file` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
   `make_date` date NOT NULL,
   `uploader` varchar(25) NOT NULL,
   `publisher` varchar(25) NOT NULL,
+  `description` text NOT NULL,
+  `time` time NOT NULL,
+  `tanggal` date NOT NULL,
+  `place` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 -- 
 -- Dumping data for table `event`
 -- 
 
-INSERT INTO `event` VALUES (11, 98, 'jlkj', 'd86ae-kuisioner_ht.docx', '2014-06-23', 'uoiu', 'oiu');
-INSERT INTO `event` VALUES (12, 2, 'jhkjhkjh', 'bc829-lighthouse.jpg', '2014-07-15', 'lkjhklhk', 'jhkjh');
+INSERT INTO `event` VALUES (14, 2, 'kljlkj', '4e84a-chrysanthemum.jpg', '2014-07-16', 'naon', '314', 'lkjlkj    ', '10:11:00', '2014-07-08', 'jakarta');
 
 -- --------------------------------------------------------
 
@@ -9501,6 +9648,25 @@ CREATE TABLE `final_certificate` (
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `finance`
+-- 
+
+CREATE TABLE `finance` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `id_privilige` int(11) NOT NULL DEFAULT '6',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `finance`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `gallery_photo`
 -- 
 
@@ -9560,12 +9726,13 @@ CREATE TABLE `gtp_tube` (
   `uploader` varchar(25) NOT NULL,
   `publisher` varchar(25) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- 
 -- Dumping data for table `gtp_tube`
 -- 
 
+INSERT INTO `gtp_tube` VALUES (2, 'Nyoba', '28b20-movie.ogg', 'cek', '2014-07-08', '2321', '414');
 
 -- --------------------------------------------------------
 
@@ -9603,12 +9770,15 @@ CREATE TABLE `job_assignment` (
   `id_office_1` int(11) NOT NULL,
   `id_office_2` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- 
 -- Dumping data for table `job_assignment`
 -- 
 
+INSERT INTO `job_assignment` VALUES (1, '2014-07-08', '131', 'jhkh', 1, 1);
+INSERT INTO `job_assignment` VALUES (2, '2014-07-08', '131', 'jhkh', 1, 1);
+INSERT INTO `job_assignment` VALUES (3, '2014-07-08', '131', 'jhkh', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -9674,6 +9844,8 @@ CREATE TABLE `mentor` (
   `id` int(5) NOT NULL AUTO_INCREMENT,
   `nik` varchar(20) NOT NULL,
   `name` varchar(20) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
   `id_band` int(11) NOT NULL,
   `id_position` int(11) NOT NULL,
   `id_division` int(11) NOT NULL,
@@ -9681,14 +9853,16 @@ CREATE TABLE `mentor` (
   `stream` varchar(20) NOT NULL,
   `id_company` int(11) NOT NULL,
   `id_status` int(11) NOT NULL,
+  `id_privilige` int(11) NOT NULL DEFAULT '3',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- 
 -- Dumping data for table `mentor`
 -- 
 
-INSERT INTO `mentor` VALUES (1, '2313', 'jlkjl', 1, 1, 1, 1, '1', 1, 1);
+INSERT INTO `mentor` VALUES (1, '2313', 'jlkjl', '', '', 1, 1, 1, 1, '1', 1, 1, 3);
+INSERT INTO `mentor` VALUES (2, '1', 'mentor', 'mentor', 'mentor', 1, 1, 1, 1, '1', 1, 1, 3);
 
 -- --------------------------------------------------------
 
@@ -9706,21 +9880,33 @@ CREATE TABLE `menu` (
   `height` varchar(3) DEFAULT '40',
   `order` int(2) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
 
 -- 
 -- Dumping data for table `menu`
 -- 
 
-INSERT INTO `menu` VALUES (2, 'Home', 'back/home', 'Backend Home', 'Home1.png', '83', '40', NULL);
-INSERT INTO `menu` VALUES (3, 'Profile', 'back/profile', 'Backend Profile', 'profile1.png', '89', '40', NULL);
-INSERT INTO `menu` VALUES (4, 'Content Web', 'back/content', 'Content Web', 'content1.png', '140', '40', NULL);
-INSERT INTO `menu` VALUES (5, 'MAP', 'back/map', 'Map', 'map1.png', '80', '40', NULL);
-INSERT INTO `menu` VALUES (6, 'GTP', 'back/gtp', 'GTP', 'gtp1.png', '89', '40', NULL);
-INSERT INTO `menu` VALUES (7, 'Cola', 'back/cola', 'Cola', 'cola1.png', '97', '40', NULL);
-INSERT INTO `menu` VALUES (8, 'Roti', 'back/roti', 'Roti', 'roti1.png', '95', '40', NULL);
-INSERT INTO `menu` VALUES (9, 'Dashboard', 'back/dashboard', 'Dashboard', 'dashboard1.png', '127', '40', NULL);
-INSERT INTO `menu` VALUES (10, 'GTP', 'back/gtp/gtp_process', 'GTP', 'gtp1.png', '80', '40', NULL);
+INSERT INTO `menu` VALUES (2, 'Home', 'back/home', 'Backend Home', 'Home1.png', '83', '40', 1);
+INSERT INTO `menu` VALUES (3, 'Profile', 'back/profile', 'Backend Profile', 'profile1.png', '89', '40', 2);
+INSERT INTO `menu` VALUES (4, 'Content Web', 'back/webcontent', 'Content Web', 'content1.png', '140', '40', 3);
+INSERT INTO `menu` VALUES (5, 'MAP', 'back/map', 'Map', 'map1.png', '80', '40', 4);
+INSERT INTO `menu` VALUES (6, 'GTP', 'back/gtp', 'GTP', 'gtp1.png', '89', '40', 5);
+INSERT INTO `menu` VALUES (7, 'Cola', 'back/cola', 'Cola', 'cola1.png', '97', '40', 6);
+INSERT INTO `menu` VALUES (8, 'Roti', 'back/roti', 'Roti', 'roti1.png', '95', '40', 7);
+INSERT INTO `menu` VALUES (9, 'Dashboard', 'back/dashboard', 'Dashboard', 'dashboard1.png', '127', '40', 8);
+INSERT INTO `menu` VALUES (10, 'GTP', 'back/gtp/gtp_process', 'GTP', 'gtp1.png', '80', '40', 9);
+INSERT INTO `menu` VALUES (11, 'Home', 'mentor/home', 'Home mentor', 'Home1.png', '83', '40', 1);
+INSERT INTO `menu` VALUES (12, 'Profile', 'mentor/profile', 'Profile Mentor', 'profile1.png', '83', '40', 2);
+INSERT INTO `menu` VALUES (13, 'Content Web', 'mentor/content', 'Content Web mentor', 'content1.png', '140', '40', 3);
+INSERT INTO `menu` VALUES (14, 'MAP', 'mentor/map', 'Map mentor', 'map1.png', '89', '40', 4);
+INSERT INTO `menu` VALUES (15, 'GTP', 'mentor/gtp', 'GTP Mentor', 'gtp1.png', '89', '40', 5);
+INSERT INTO `menu` VALUES (16, 'Home', 'mentee/home', 'Home mentee', 'Home1.png', '83', '40', 1);
+INSERT INTO `menu` VALUES (17, 'Profile', 'mentee/profile', 'Profile Mentee', 'profile1.png', '83', '40', 2);
+INSERT INTO `menu` VALUES (18, 'Content Web', 'mentee/content', 'Content Web Mentee', 'content1.png', '140', '40', 3);
+INSERT INTO `menu` VALUES (19, 'GTP', 'mentee/gtp', 'GTP Mentee', 'gtp1.png', '89', '40', 4);
+INSERT INTO `menu` VALUES (20, 'Home', 'assesor/home', 'Home Assesor', 'Home1.png', '140', '40', 1);
+INSERT INTO `menu` VALUES (21, 'Profile', 'assesor/profile', 'Profile Assesor', 'profile1.png', '89', '40', 2);
+INSERT INTO `menu` VALUES (22, 'GTP', 'assesor/gtp', 'GTP Assesor', 'gtp1.png', '89', '40', 3);
 
 -- --------------------------------------------------------
 
@@ -9736,12 +9922,33 @@ CREATE TABLE `menu_privilige` (
   `edit_status` int(1) NOT NULL DEFAULT '1',
   `delete_status` int(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
 
 -- 
 -- Dumping data for table `menu_privilige`
 -- 
 
+INSERT INTO `menu_privilige` VALUES (1, 1, 2, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (2, 1, 3, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (3, 1, 4, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (4, 1, 5, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (5, 1, 6, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (6, 1, 7, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (7, 1, 8, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (8, 1, 9, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (9, 1, 10, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (10, 3, 11, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (11, 3, 12, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (12, 3, 13, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (13, 3, 14, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (14, 3, 15, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (15, 2, 16, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (16, 2, 17, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (17, 2, 18, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (18, 2, 19, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (19, 4, 20, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (20, 4, 21, 1, 1, 1);
+INSERT INTO `menu_privilige` VALUES (21, 4, 22, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -9773,6 +9980,24 @@ INSERT INTO `offices` VALUES (4, 'Paris', '+33 14 723 4404', '43 Rue Jouffroy D'
 INSERT INTO `offices` VALUES (5, 'Tokyo', '+81 33 224 5000', '4-1 Kioicho', NULL, 'Chiyoda-Ku', 'Japan', '102-8578', 'Japan');
 INSERT INTO `offices` VALUES (6, 'Sydney', '+61 2 9264 2451', '5-11 Wentworth Avenue', 'Floor #2', NULL, 'Australia', 'NSW 2010', 'APAC');
 INSERT INTO `offices` VALUES (7, 'London', '+44 20 7877 2041', '25 Old Broad Street', 'Level 7', NULL, 'UK', 'EC2N 1HN', 'EMEA');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `official`
+-- 
+
+CREATE TABLE `official` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `official`
+-- 
+
 
 -- --------------------------------------------------------
 
@@ -13485,6 +13710,25 @@ INSERT INTO `payments` VALUES (406, 'BJMPR4545', '2005-04-23 00:00:00', 12190.85
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `pdln`
+-- 
+
+CREATE TABLE `pdln` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `asal` varchar(20) NOT NULL,
+  `tujuan` varchar(20) NOT NULL,
+  `tarif` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `pdln`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `photo`
 -- 
 
@@ -13507,6 +13751,24 @@ CREATE TABLE `photo` (
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `position`
+-- 
+
+CREATE TABLE `position` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `label` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `position`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `pre_departure`
 -- 
 
@@ -13518,12 +13780,14 @@ CREATE TABLE `pre_departure` (
   `start_date` date NOT NULL,
   `finish_date` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- 
 -- Dumping data for table `pre_departure`
 -- 
 
+INSERT INTO `pre_departure` VALUES (1, 1, 1, 1, '2014-07-14', '2014-07-20');
+INSERT INTO `pre_departure` VALUES (2, 1, 1, 1, '2014-07-14', '2014-07-20');
 
 -- --------------------------------------------------------
 
@@ -13536,12 +13800,16 @@ CREATE TABLE `privilige` (
   `label` varchar(20) NOT NULL,
   `keterangan` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 -- 
 -- Dumping data for table `privilige`
 -- 
 
+INSERT INTO `privilige` VALUES (1, 'Admin', 'Administrator');
+INSERT INTO `privilige` VALUES (2, 'Mentee', 'Mentee');
+INSERT INTO `privilige` VALUES (3, 'Mentor', 'mentor');
+INSERT INTO `privilige` VALUES (4, 'Assesor', 'assesor');
 
 -- --------------------------------------------------------
 
@@ -13725,6 +13993,26 @@ CREATE TABLE `question` (
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `question_guidlines`
+-- 
+
+CREATE TABLE `question_guidlines` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_question_guidlines` varchar(20) NOT NULL,
+  `file` varchar(255) NOT NULL,
+  `keterangan` varchar(200) NOT NULL,
+  `tanggal_dokumen` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `question_guidlines`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `rekening_dollar`
 -- 
 
@@ -13785,6 +14073,29 @@ CREATE TABLE `rekening_rupiah` (
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `rkm`
+-- 
+
+CREATE TABLE `rkm` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tahun` varchar(4) NOT NULL,
+  `cost_center` varchar(30) NOT NULL,
+  `account` varchar(20) NOT NULL,
+  `gl_account` varchar(30) NOT NULL,
+  `org_unit_cost_center` varchar(20) NOT NULL,
+  `program_code_activity` varchar(20) NOT NULL,
+  `detail_program` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `rkm`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `sk_job_assignment`
 -- 
 
@@ -13831,6 +14142,42 @@ INSERT INTO `slide_show` VALUES (5, '1f1c4-hydrangeas.jpg', 'lkjlkjl', 1, '2014-
 -- --------------------------------------------------------
 
 -- 
+-- Table structure for table `status_user`
+-- 
+
+CREATE TABLE `status_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `status_user`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `stream`
+-- 
+
+CREATE TABLE `stream` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `keterangan` varchar(125) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `stream`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
 -- Table structure for table `type_event`
 -- 
 
@@ -13862,7 +14209,7 @@ CREATE TABLE `user` (
   `id_company` int(11) NOT NULL,
   `id_official` int(11) NOT NULL,
   `id_status` int(11) NOT NULL,
-  `id_privilige` int(11) NOT NULL,
+  `id_privilige` int(11) NOT NULL DEFAULT '1',
   `username` int(11) NOT NULL,
   `password` int(11) NOT NULL,
   PRIMARY KEY (`id`)

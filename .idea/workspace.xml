@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/back_view/depan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/front_view/depan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/back/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/finance/pdln.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/finance/rekening_payroll.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/finance/rkm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/assesor/assesment.php" afterPath="$PROJECT_DIR$/application/controllers/assesor/assesment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/gtp_process.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/gtp_process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="" />
     <ignored path="egtp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -565,7 +554,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
