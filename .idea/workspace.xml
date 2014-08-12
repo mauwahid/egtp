@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/back_template/gallery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/back_template/grid_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/candidate.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/candidate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/back/home.php" afterPath="$PROJECT_DIR$/application/controllers/back/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/front/login.php" afterPath="$PROJECT_DIR$/application/controllers/front/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front_view/login.php" afterPath="$PROJECT_DIR$/application/views/front_view/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/predep.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/predep.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="" />
     <ignored path="egtp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Aug 07, 2014 at 10:46 PM
+-- Generation Time: Aug 13, 2014 at 07:28 AM
 -- Server version: 5.6.19
 -- PHP Version: 6.0.0-dev
 
@@ -240,7 +240,7 @@ INSERT INTO `actor` VALUES (200, 'TEMPLE THORA', '2011-04-24 19:27:25');
 CREATE TABLE `agenda` (
   `id` int(5) NOT NULL AUTO_INCREMENT,
   `topic` varchar(50) NOT NULL,
-  `description` varchar(255) NOT NULL,
+  `description` text NOT NULL,
   `place` varchar(50) NOT NULL,
   `start_date` date NOT NULL,
   `finish_date` date NOT NULL,
@@ -249,15 +249,14 @@ CREATE TABLE `agenda` (
   `uploader` varchar(20) NOT NULL,
   `publisher` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 -- 
 -- Dumping data for table `agenda`
 -- 
 
-INSERT INTO `agenda` VALUES (1, 'lumut', 'ljlajflajflaf', 'Jakarta', '2014-07-15', '2014-07-22', '13:23', '2014-07-29', 'mau', 'mau');
-INSERT INTO `agenda` VALUES (2, 'Menikah', 'Test Stesdadad', 'Bandung', '2014-07-22', '2014-07-15', '11:00', '2014-07-08', 'Jakarta', 'Jakarta');
-INSERT INTO `agenda` VALUES (3, 'hkjhkjh', 'jkhkjh    jhkj', 'khkjh', '2014-07-15', '2014-07-07', '131', '2014-07-22', '313', '1313');
+INSERT INTO `agenda` VALUES (5, 'Bipolar', 'Bipolar disorder adalah jenis penyakit psikologi,', 'Jakarta', '2014-08-19', '2014-08-04', '10:00', '2014-08-04', 'Cek', 'cek');
+INSERT INTO `agenda` VALUES (6, 'Test', 'Bipolar disorder adalah jenis penyakit psikologi, ditandai dengan perubahan mood (alam perasaan) yang sangat ekstrim, yaitu berupa depresi dan mania. Pengambilan istilah bipolar disorder mengacu pada suasana hati penderitanya yang dapat berganti secara tiba-tiba antara dua kutub (bipolar) yang berlawanan yaitu kebahagiaan (mania) dan kesedihan (depresi) yang ekstrim.', 'Jakarta', '2014-08-03', '2014-08-19', '10:00', '2014-08-05', 'Cek', 'cek');
 
 -- --------------------------------------------------------
 
@@ -467,16 +466,15 @@ CREATE TABLE `candidate_job_assignment` (
   `id_candidate` int(11) NOT NULL,
   `id_job_assignment` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 -- 
 -- Dumping data for table `candidate_job_assignment`
 -- 
 
-INSERT INTO `candidate_job_assignment` VALUES (1, 1, 1);
+INSERT INTO `candidate_job_assignment` VALUES (0, 1, 1);
 INSERT INTO `candidate_job_assignment` VALUES (2, 1, 2);
 INSERT INTO `candidate_job_assignment` VALUES (3, 1, 3);
-INSERT INTO `candidate_job_assignment` VALUES (4, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -9770,7 +9768,7 @@ CREATE TABLE `job_assignment` (
   `id_office_1` int(11) NOT NULL,
   `id_office_2` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 -- 
 -- Dumping data for table `job_assignment`
@@ -9779,6 +9777,14 @@ CREATE TABLE `job_assignment` (
 INSERT INTO `job_assignment` VALUES (1, '2014-07-08', '131', 'jhkh', 1, 1);
 INSERT INTO `job_assignment` VALUES (2, '2014-07-08', '131', 'jhkh', 1, 1);
 INSERT INTO `job_assignment` VALUES (3, '2014-07-08', '131', 'jhkh', 1, 1);
+INSERT INTO `job_assignment` VALUES (4, '2014-08-05', 'k', 'k', 1, 1);
+INSERT INTO `job_assignment` VALUES (5, '2014-08-04', 'kjk`', 'j', 1, 1);
+INSERT INTO `job_assignment` VALUES (6, '2014-08-18', 'j', 'j', 1, 1);
+INSERT INTO `job_assignment` VALUES (7, '2014-08-18', 'y', 'y', 1, 1);
+INSERT INTO `job_assignment` VALUES (8, '2014-08-04', 'j', '1', 1, 1);
+INSERT INTO `job_assignment` VALUES (9, '2014-08-04', 'y', 'y', 1, 1);
+INSERT INTO `job_assignment` VALUES (10, '2014-08-19', '23', '1', 1, 1);
+INSERT INTO `job_assignment` VALUES (11, '2014-08-13', '31', 'jj', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -14202,20 +14208,39 @@ INSERT INTO `type_event` VALUES (98, 'Type 1');
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nama` varchar(30) NOT NULL,
-  `id_band` int(11) NOT NULL,
-  `id_position` int(11) NOT NULL,
-  `id_division` int(11) NOT NULL,
-  `id_company` int(11) NOT NULL,
-  `id_official` int(11) NOT NULL,
-  `id_status` int(11) NOT NULL,
-  `id_privilige` int(11) NOT NULL DEFAULT '1',
-  `username` int(11) NOT NULL,
-  `password` int(11) NOT NULL,
+  `name` varchar(30) DEFAULT NULL,
+  `band` varchar(20) DEFAULT NULL,
+  `position` varchar(20) DEFAULT NULL,
+  `division` varchar(20) DEFAULT NULL,
+  `company` varchar(20) DEFAULT NULL,
+  `official` varchar(20) DEFAULT NULL,
+  `status` varchar(20) DEFAULT NULL,
+  `id_privilige` varchar(20) DEFAULT '1',
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `id_assesment` int(11) DEFAULT NULL,
+  `stream` varchar(20) DEFAULT NULL,
+  `directorate` varchar(20) DEFAULT NULL,
+  `nik` varchar(20) NOT NULL,
+  `id_predep` int(11) DEFAULT NULL,
+  `id_job_assignment` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='1' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='1' AUTO_INCREMENT=14 ;
 
 -- 
 -- Dumping data for table `user`
 -- 
 
+INSERT INTO `user` VALUES (1, 'Maulana', '1', '1', '1', '1', '1', '1', '1', 'user', 'password', 1, '1', '1', '1', NULL, 0);
+INSERT INTO `user` VALUES (2, 'Maulana', 'Band', 'Position', 'Division', 'Company', NULL, 'Status', '1', NULL, NULL, NULL, 'Stream', 'Directorate', '9879879', NULL, 0);
+INSERT INTO `user` VALUES (3, 'iuy', 'iuy', 'iuy', 'iuy', 'yiuyiu', NULL, 'yiuyiu', '1', 'uiyiu', 'yuiy', NULL, 'yiu', 'iu', 'iuy', NULL, 0);
+INSERT INTO `user` VALUES (4, 'hlkj', 'hlkj', 'hlk', 'jhlk', 'jhlkj', NULL, 'hkl', '1', 'uhl', 'uhlku', NULL, 'jhlk', 'jhkl', 'hlkj', NULL, 0);
+INSERT INTO `user` VALUES (5, 'uoi', 'uoi', 'uoi', 'u', 'oiu', NULL, 'oiu', '1', 'lijoi', 'ujil', NULL, 'oiu', 'oiu', 'ujoi', NULL, 0);
+INSERT INTO `user` VALUES (6, 'lkj', 'lkj', 'lkj', 'lkjlk', 'lkj', NULL, 'lkjlk', '1', 'j', 'lkj', NULL, 'lkj', 'j', 'lkj', NULL, 0);
+INSERT INTO `user` VALUES (7, 'j', 'klj', 'lkj', 'lkj', 'lkj', NULL, 'lkj', '1', 'lkjl', 'kjkl', NULL, 'lkj', 'lj', 'jlk', NULL, 0);
+INSERT INTO `user` VALUES (8, 'lkj', 'lkj', 'lkj', 'lkj', 'klj', NULL, 'lkj', '1', 'jl', 'jl', NULL, 'lkj', 'lkj', 'j', NULL, 0);
+INSERT INTO `user` VALUES (9, 'jlk', 'jkl', 'j', 'lkj', 'kjlk', NULL, 'jlk', '1', 'ljljlk', 'jlk', NULL, 'lkjl', 'lkj', 'jlk', NULL, 0);
+INSERT INTO `user` VALUES (10, 'kjlk', 'jl', 'kjlk', 'j', 'l', NULL, 'l', '1', 'jl', 'jlk', NULL, 'l', 'lkl', 'jl', NULL, 0);
+INSERT INTO `user` VALUES (11, 'lkj', 'lkj', 'lkj', 'lkj', 'kj', NULL, 'kjk', '1', 'jl;k', 'ljkhlkjh', NULL, 'lkj', 'lkj', 'lkj', NULL, 0);
+INSERT INTO `user` VALUES (12, 'j', 'j', 'j', 'jj', 'j', 'j', 'j', '2', 'j', 'j', NULL, 'j', 'j', 'j', NULL, 0);
+INSERT INTO `user` VALUES (13, 'k', 'kk', 'k', 'k', 'k', NULL, 'k', '2', 'k', 'k', NULL, 'k', 'k', 'k', NULL, 0);
