@@ -5,6 +5,12 @@
 //form_open('home/login',array('name'=>'loginForm', 'method'=>'POST'));
 ?>
 
+    <?php
+        if($keterangan){
+            echo $keterangan;
+        }
+
+    ?>
     <form id="loginform" class="form-vertical" action="<?php echo base_url() ?>home/login" method="post">
         <table>
        <tr>

@@ -26,7 +26,7 @@ class Predep extends CI_Controller {
         $crud = new grocery_CRUD();
         $crud->set_table('pre_departure');
         $crud->set_subject('Pre Departure');
-        $crud->set_relation_n_n('candidate','candidate_pre_departure','candidate','id_pre_departure','id_candidate','{nik} - {name} - {band} - {division}','id');
+        $crud->set_relation_n_n('Mentee','candidate_pre_departure','user','id_pre_departure','id_candidate','{nik} - {name} - {band} - {division}','id',array('id_privilige'=>'2','id_job_assignment'=>'!null'));
 
         $output = $crud->render();
         $this->render_output($output);

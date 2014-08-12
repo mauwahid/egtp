@@ -45,6 +45,7 @@ class login extends CI_Controller{
             'class'=>'tombol'
         );
 
+        $data['keterangan'] = "";
         $data['f_tombol'] = form_submit($ar_tom);
         $this->load->view('front_template/header.php');
         $this->load->view('front_view/login.php', $data);
