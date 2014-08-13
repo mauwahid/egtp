@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Aug 14, 2014 at 12:32 AM
+-- Generation Time: Aug 14, 2014 at 03:09 AM
 -- Server version: 5.6.19
 -- PHP Version: 6.0.0-dev
 
@@ -14225,6 +14225,16 @@ CREATE TABLE `user` (
   `nik` varchar(20) NOT NULL,
   `id_predep` int(11) DEFAULT NULL,
   `id_job_assignment` int(11) DEFAULT NULL,
+  `email` varchar(20) DEFAULT NULL,
+  `no_hp` varchar(20) DEFAULT NULL,
+  `no_rekening` varchar(20) DEFAULT NULL,
+  `nama_bank` varchar(20) DEFAULT NULL,
+  `alamat_bank` varchar(20) DEFAULT NULL,
+  `kota_bank` varchar(20) DEFAULT NULL,
+  `no_rek_dolar` varchar(20) DEFAULT NULL,
+  `nama_bank_dolar` varchar(20) DEFAULT NULL,
+  `kota_bank_dolar` varchar(20) DEFAULT NULL,
+  `alamat_bank_dolar` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='1' AUTO_INCREMENT=17 ;
 
@@ -14232,7 +14242,7 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 -- 
 
-INSERT INTO `user` VALUES (1, 'Maulana', '1', '1', '1', '1', '1', '1', '1', 'user', 'password', 1, '1', '1', '1', NULL, 0);
-INSERT INTO `user` VALUES (14, 'candidate', 'k', 'k', 'k', 'k', 'k', 'k', '2', 'candidate', 'password', 1, '1', '1', '1', 1, 1);
-INSERT INTO `user` VALUES (15, 'mentor', '1', '1', '1', '1', '1', '1', '3', 'mentor', 'password', 1, '1', '1', '1', 1, 1);
-INSERT INTO `user` VALUES (16, 'assesor', '2', '2', '2', '2', '2', '2', '4', 'assesor', 'password', NULL, NULL, NULL, '', NULL, NULL);
+INSERT INTO `user` VALUES (1, 'alkjdaljd', 'kj', 'kj', 'jlhkjhk', '1', '1', '1', '1', 'user', 'password', 1, 'kjh', '1', '1', NULL, 0, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (14, 'candidate', 'k', 'k', 'k', 'k', 'k', 'k', '2', 'candidate', 'password', 1, '1', '1', '1', 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (15, 'mentor', '1', '1', '1', '1', '1', '1', '3', 'mentor', 'password', 1, '1', '1', '1', 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (16, 'assesor', '2', '2', '2', '2', '2', '2', '4', 'assesor', 'password', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
