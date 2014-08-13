@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Host: localhost
--- Generation Time: Aug 13, 2014 at 07:28 AM
+-- Generation Time: Aug 14, 2014 at 12:32 AM
 -- Server version: 5.6.19
 -- PHP Version: 6.0.0-dev
 
@@ -9896,11 +9896,10 @@ INSERT INTO `menu` VALUES (2, 'Home', 'back/home', 'Backend Home', 'Home1.png', 
 INSERT INTO `menu` VALUES (3, 'Profile', 'back/profile', 'Backend Profile', 'profile1.png', '89', '40', 2);
 INSERT INTO `menu` VALUES (4, 'Content Web', 'back/webcontent', 'Content Web', 'content1.png', '140', '40', 3);
 INSERT INTO `menu` VALUES (5, 'MAP', 'back/map', 'Map', 'map1.png', '80', '40', 4);
-INSERT INTO `menu` VALUES (6, 'GTP', 'back/gtp', 'GTP', 'gtp1.png', '89', '40', 5);
+INSERT INTO `menu` VALUES (6, 'GTP', 'gtp/gtp_process', 'GTP', 'gtp1.png', '89', '40', 5);
 INSERT INTO `menu` VALUES (7, 'Cola', 'back/cola', 'Cola', 'cola1.png', '97', '40', 6);
 INSERT INTO `menu` VALUES (8, 'Roti', 'back/roti', 'Roti', 'roti1.png', '95', '40', 7);
 INSERT INTO `menu` VALUES (9, 'Dashboard', 'back/dashboard', 'Dashboard', 'dashboard1.png', '127', '40', 8);
-INSERT INTO `menu` VALUES (10, 'GTP', 'back/gtp/gtp_process', 'GTP', 'gtp1.png', '80', '40', 9);
 INSERT INTO `menu` VALUES (11, 'Home', 'mentor/home', 'Home mentor', 'Home1.png', '83', '40', 1);
 INSERT INTO `menu` VALUES (12, 'Profile', 'mentor/profile', 'Profile Mentor', 'profile1.png', '83', '40', 2);
 INSERT INTO `menu` VALUES (13, 'Content Web', 'mentor/content', 'Content Web mentor', 'content1.png', '140', '40', 3);
@@ -13806,7 +13805,7 @@ CREATE TABLE `privilige` (
   `label` varchar(20) NOT NULL,
   `keterangan` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 -- 
 -- Dumping data for table `privilige`
@@ -13816,6 +13815,8 @@ INSERT INTO `privilige` VALUES (1, 'Admin', 'Administrator');
 INSERT INTO `privilige` VALUES (2, 'Mentee', 'Mentee');
 INSERT INTO `privilige` VALUES (3, 'Mentor', 'mentor');
 INSERT INTO `privilige` VALUES (4, 'Assesor', 'assesor');
+INSERT INTO `privilige` VALUES (5, 'finance', 'finance');
+INSERT INTO `privilige` VALUES (6, 'eksekutif', 'eksekutif');
 
 -- --------------------------------------------------------
 
@@ -14223,24 +14224,15 @@ CREATE TABLE `user` (
   `directorate` varchar(20) DEFAULT NULL,
   `nik` varchar(20) NOT NULL,
   `id_predep` int(11) DEFAULT NULL,
-  `id_job_assignment` int(11) NOT NULL,
+  `id_job_assignment` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='1' AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='1' AUTO_INCREMENT=17 ;
 
 -- 
 -- Dumping data for table `user`
 -- 
 
 INSERT INTO `user` VALUES (1, 'Maulana', '1', '1', '1', '1', '1', '1', '1', 'user', 'password', 1, '1', '1', '1', NULL, 0);
-INSERT INTO `user` VALUES (2, 'Maulana', 'Band', 'Position', 'Division', 'Company', NULL, 'Status', '1', NULL, NULL, NULL, 'Stream', 'Directorate', '9879879', NULL, 0);
-INSERT INTO `user` VALUES (3, 'iuy', 'iuy', 'iuy', 'iuy', 'yiuyiu', NULL, 'yiuyiu', '1', 'uiyiu', 'yuiy', NULL, 'yiu', 'iu', 'iuy', NULL, 0);
-INSERT INTO `user` VALUES (4, 'hlkj', 'hlkj', 'hlk', 'jhlk', 'jhlkj', NULL, 'hkl', '1', 'uhl', 'uhlku', NULL, 'jhlk', 'jhkl', 'hlkj', NULL, 0);
-INSERT INTO `user` VALUES (5, 'uoi', 'uoi', 'uoi', 'u', 'oiu', NULL, 'oiu', '1', 'lijoi', 'ujil', NULL, 'oiu', 'oiu', 'ujoi', NULL, 0);
-INSERT INTO `user` VALUES (6, 'lkj', 'lkj', 'lkj', 'lkjlk', 'lkj', NULL, 'lkjlk', '1', 'j', 'lkj', NULL, 'lkj', 'j', 'lkj', NULL, 0);
-INSERT INTO `user` VALUES (7, 'j', 'klj', 'lkj', 'lkj', 'lkj', NULL, 'lkj', '1', 'lkjl', 'kjkl', NULL, 'lkj', 'lj', 'jlk', NULL, 0);
-INSERT INTO `user` VALUES (8, 'lkj', 'lkj', 'lkj', 'lkj', 'klj', NULL, 'lkj', '1', 'jl', 'jl', NULL, 'lkj', 'lkj', 'j', NULL, 0);
-INSERT INTO `user` VALUES (9, 'jlk', 'jkl', 'j', 'lkj', 'kjlk', NULL, 'jlk', '1', 'ljljlk', 'jlk', NULL, 'lkjl', 'lkj', 'jlk', NULL, 0);
-INSERT INTO `user` VALUES (10, 'kjlk', 'jl', 'kjlk', 'j', 'l', NULL, 'l', '1', 'jl', 'jlk', NULL, 'l', 'lkl', 'jl', NULL, 0);
-INSERT INTO `user` VALUES (11, 'lkj', 'lkj', 'lkj', 'lkj', 'kj', NULL, 'kjk', '1', 'jl;k', 'ljkhlkjh', NULL, 'lkj', 'lkj', 'lkj', NULL, 0);
-INSERT INTO `user` VALUES (12, 'j', 'j', 'j', 'jj', 'j', 'j', 'j', '2', 'j', 'j', NULL, 'j', 'j', 'j', NULL, 0);
-INSERT INTO `user` VALUES (13, 'k', 'kk', 'k', 'k', 'k', NULL, 'k', '2', 'k', 'k', NULL, 'k', 'k', 'k', NULL, 0);
+INSERT INTO `user` VALUES (14, 'candidate', 'k', 'k', 'k', 'k', 'k', 'k', '2', 'candidate', 'password', 1, '1', '1', '1', 1, 1);
+INSERT INTO `user` VALUES (15, 'mentor', '1', '1', '1', '1', '1', '1', '3', 'mentor', 'password', 1, '1', '1', '1', 1, 1);
+INSERT INTO `user` VALUES (16, 'assesor', '2', '2', '2', '2', '2', '2', '4', 'assesor', 'password', NULL, NULL, NULL, '', NULL, NULL);
