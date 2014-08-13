@@ -51,35 +51,6 @@ class login extends CI_Controller{
         $this->load->view('front_view/login.php', $data);
         $this->load->view('front_template/footer.php');
     }
-//end of class
-/*
-    public function process(){
-        $username = $this->input->post('username');
-        $password = $this->input->post('password');
-
-        $ency_password = $this->encrypt->encode($password);
-
-        $query = "Select * from username where username = '$username' and password = '$ency_password' ";
-        $result = $this->db->query($query)->result();
-
-        if(count($result) > 0){
-
-            foreach($result as $row){
-
-                $login_ok = "OK";
-                $this->session->set_userdata('login_status',$login_ok);
-                $this->session->set_userdata('username',$row->username);
-                $this->session->set_userdata('nama',$row->nama_lengkap);
-                $this->index();
-            }
-
-        }else
-        {
-            $data['warning'] = "Username atau password salah";
-            $this->logout($data);
-        }
-    }
-*/
 
 
     public function process(){

@@ -29,7 +29,12 @@
         <td align="center"><table width="800" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="87%" align="right">Welcome, (name) </td>
-                    <td width="13%" align="center"><img src="<?php echo base_url() ?>assets/images/logout.png" width="78" height="28" /></td>
+
+                    <td width="13%" align="center">
+                        <a href="<?php echo site_url('front/login/logout')?>">
+                            <img src="<?php echo base_url() ?>assets/images/logout.png" width="78" height="28" />
+                        </a>
+                    </td>
                 </tr>
             </table></td>
     </tr>

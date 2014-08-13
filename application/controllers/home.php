@@ -99,6 +99,8 @@ class Home extends CI_Controller {
 
 
 
+
+
         $this->load->view('back_template/header.php', $data);
      //   $this->load->view('back_template/home.php', $data);
         $this->load->view('back_template/gallery.php', $data);

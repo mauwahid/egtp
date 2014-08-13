@@ -17,12 +17,6 @@ class Home extends CI_Controller {
         $this->load->helper('url');
         $this->load->library('encrypt');
 
-
-
-        /* ------------------ */
-
-        //    $this->load->library('grocery_CRUD');
-
     }
 
 
@@ -43,9 +37,19 @@ class Home extends CI_Controller {
         $data['halaman_overseas'] = $this->get_hal_overseas();
         $data['data_tube'] = $this->get_tube(null);
         $data['halaman_tube'] = $this->get_hal_tube();
+        $data['title'] = "HOME";
+        $data['css_files'] = Array("null","null");
+        $data['js_files'] = Array("null","null");
 
 
-        $this->load->view('back_template/header.php');
+        $id_privilige = $this->session->userdata('id_privilige');
+        $menu_privilige = "select * from menu, menu_privilige where menu.id = menu_privilige.id_menu and menu_privilige.id_privilige = ".$id_privilige. "
+        order by menu.order asc";
+        $res_menu_privilige = $this->db->query($menu_privilige)->result();
+
+        $data['menu'] = $res_menu_privilige;
+
+        $this->load->view('back_template/header.php',$data);
         $this->load->view('front_view/home.php', $data);
         $this->load->view('front_view/depan.php', $data);
         $this->load->view('back_template/footer.php');

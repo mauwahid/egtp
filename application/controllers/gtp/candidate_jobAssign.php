@@ -11,6 +11,10 @@ class Candidate_jobAssign extends CI_Controller {
     {
         parent::__construct();
         $this->load->library('grocery_CRUD');
+        $id_privilige = $this->session->userdata('id_privilige');
+        if(!$id_privilige || $id_privilige =! '1'){
+            show_404();
+        }
     }
 
     public function index(){

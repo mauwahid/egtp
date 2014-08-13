@@ -11,6 +11,7 @@ class Tube extends CI_Controller {
     {
         parent::__construct();
         $this->load->library('grocery_CRUD');
+        
     }
 
     public function index(){
