@@ -11,6 +11,11 @@ class Webcontent extends CI_Controller{
     public function __construct()
     {
         parent::__construct();
+        $id_privilige = $this->session->userdata('id_privilige');
+        if(!$id_privilige || $id_privilige =! '1'){
+            show_404();
+        }
+
     }
 
     public function index(){

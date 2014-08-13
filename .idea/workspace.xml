@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="" />
+    <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/back/home.php" afterPath="$PROJECT_DIR$/application/controllers/back/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/back/webcontent.php" afterPath="$PROJECT_DIR$/application/controllers/back/webcontent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="egtp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,33 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grid_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/back_template/grid_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="38" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4097">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="candidate.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/gtp/candidate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gta.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/gtp/gta.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jobassig.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/gtp/jobassig.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,10 +36,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_setting.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menu_setting.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/libraries/menu_setting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5861423" vertical-offset="44" max-vertical-offset="578">
+            <state line="21" column="14" selection-start="437" selection-end="437" vertical-scroll-proportion="-12.038462" vertical-offset="44" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assesment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/assesor/assesment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="15" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.65384614" vertical-offset="51" max-vertical-offset="1088">
+              <folding>
+                <marker date="1407396583860" expanded="true" signature="1060:1078" placeholder="Select * fro..menu..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webcontent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/back/webcontent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="8" selection-start="219" selection-end="219" vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="0" selection-start="2124" selection-end="2185" vertical-scroll-proportion="-20.333334" vertical-offset="102" max-vertical-offset="7769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/back/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="8330">
               <folding />
             </state>
           </provider>
@@ -114,15 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="3519" max-vertical-offset="6256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -159,7 +165,6 @@
         <option value="$PROJECT_DIR$/application/controllers/back/slideshow.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/status_user.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/tube.php" />
-        <option value="$PROJECT_DIR$/application/controllers/back/webcontent.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/candidate_jobAssign.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/gtp_process.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/mentor.php" />
@@ -178,7 +183,6 @@
         <option value="$PROJECT_DIR$/application/controllers/finance/rkm.php" />
         <option value="$PROJECT_DIR$/application/controllers/finance/rekening_payroll.php" />
         <option value="$PROJECT_DIR$/application/views/back_template/gallery.php" />
-        <option value="$PROJECT_DIR$/application/controllers/back/home.php" />
         <option value="$PROJECT_DIR$/application/views/front_view/login.php" />
         <option value="$PROJECT_DIR$/application/controllers/front/login.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
@@ -187,6 +191,8 @@
         <option value="$PROJECT_DIR$/application/controllers/gtp/predep.php" />
         <option value="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" />
         <option value="$PROJECT_DIR$/application/libraries/menu_setting.php" />
+        <option value="$PROJECT_DIR$/application/controllers/back/home.php" />
+        <option value="$PROJECT_DIR$/application/controllers/back/webcontent.php" />
       </list>
     </option>
   </component>
@@ -197,8 +203,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="y" value="4" />
     <option name="width" value="1366" />
-    <option name="height" value="728" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -290,6 +297,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egtp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egtp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -374,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="4" width="1366" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,11 +549,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/assesor/assesment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1173" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/finance/rkm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="29" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1088" />
@@ -557,16 +577,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/front_view/depan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="167" column="23" selection-start="0" selection-end="8815" vertical-scroll-proportion="0.0" vertical-offset="2715" max-vertical-offset="3995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/back/webcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="252" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/back/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="53" selection-start="7536" selection-end="7536" vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="8381" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/back/agenda.php">
@@ -607,11 +617,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="843" max-vertical-offset="1377" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="48" selection-start="9778" selection-end="9778" vertical-scroll-proportion="0.0" vertical-offset="4539" max-vertical-offset="7854" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/gtp/gta.php">
@@ -696,7 +701,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/menu_setting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5861423" vertical-offset="44" max-vertical-offset="578">
+        <state line="21" column="14" selection-start="437" selection-end="437" vertical-scroll-proportion="-12.038462" vertical-offset="44" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/assesor/assesment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="15" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.65384614" vertical-offset="51" max-vertical-offset="1088">
+          <folding>
+            <marker date="1407396583860" expanded="true" signature="1060:1078" placeholder="Select * fro..menu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2124" selection-end="2185" vertical-scroll-proportion="-20.333334" vertical-offset="102" max-vertical-offset="7769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/back/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="218" selection-end="218" vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="8330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/back/webcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="219" selection-end="219" vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
