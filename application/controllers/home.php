@@ -69,6 +69,7 @@ class Home extends CI_Controller {
         $login_status = "OK";
         $this->session->set_userdata('login_status',$login_status);
         $this->session->set_userdata('username', $result->username);
+        $this->session->set_userdata('password', $result->password);
         $this->session->set_userdata('id_privilige', $id_privilige);
 
         $this->load_view($data);

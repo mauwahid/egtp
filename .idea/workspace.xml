@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d01239-9d4b-4986-ab41-cfa9d072984b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/mentor/content.php" />
-      <change type="DELETED" beforePath="C:\AppServ\www\egtp\application\controllers\mentor\web_content.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/candidate.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/candidate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/candidate_jobAssign.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/candidate_jobAssign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/experience.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/experience.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/gallery.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/gtp_process.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/gtp_process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/gtp_process.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/gtp_process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/back_template/header.php" afterPath="$PROJECT_DIR$/application/views/back_template/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/home.php" afterPath="$PROJECT_DIR$/application/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/back/home.php" afterPath="$PROJECT_DIR$/application/controllers/back/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/jobassig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/front/login.php" afterPath="$PROJECT_DIR$/application/controllers/front/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/mentor.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/mentor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/overseas.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/overseas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gtp/predep.php" afterPath="$PROJECT_DIR$/application/controllers/gtp/predep.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/mentee/tube.php" afterPath="$PROJECT_DIR$/application/controllers/mentee/tube.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/back/profile.php" afterPath="$PROJECT_DIR$/application/controllers/back/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/back_view/profile.php" afterPath="$PROJECT_DIR$/application/views/back_view/profile.php" />
     </list>
     <ignored path="egtp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,46 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gtp_process.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/mentee/gtp_process.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="48" selection-start="281" selection-end="281" vertical-scroll-proportion="14.423077" vertical-offset="545" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overseas.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/mentee/overseas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gtp_menu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/mentor/gtp_menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="content_menu.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/back_mentor/content_menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="9" selection-start="823" selection-end="823" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/back/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="-0.65384614" vertical-offset="204" max-vertical-offset="8398">
               <folding />
             </state>
           </provider>
@@ -105,28 +54,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/mentor/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.18600368" vertical-offset="18" max-vertical-offset="629">
+            <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.8846154" vertical-offset="18" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experience.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/mentor/experience.php">
+      <file leaf-file-name="profile.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/back/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="884">
+            <state line="40" column="56" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.6243094" vertical-offset="256" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/mentor/gallery.php">
+      <file leaf-file-name="profile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/back_view/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="833">
+            <state line="179" column="0" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-64.19231" vertical-offset="1374" max-vertical-offset="3196">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+                <marker date="1407956301411" expanded="true" signature="453:472" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header_detail.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_template/header_detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="8" selection-start="2007" selection-end="2007" vertical-scroll-proportion="-6.4615383" vertical-offset="342" max-vertical-offset="1173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="1" selection-start="118" selection-end="329" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1377">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="16" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-10.615385" vertical-offset="863" max-vertical-offset="7820">
               <folding />
             </state>
           </provider>
@@ -145,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/back/band.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/company.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/division.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/event.php" />
@@ -159,7 +146,6 @@
         <option value="$PROJECT_DIR$/application/controllers/back/position.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/privilige.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/privilige_access.php" />
-        <option value="$PROJECT_DIR$/application/controllers/back/profile.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/slideshow.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/status_user.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/tube.php" />
@@ -188,7 +174,6 @@
         <option value="$PROJECT_DIR$/application/controllers/front/login.php" />
         <option value="$PROJECT_DIR$/application/views/front_template/header.php" />
         <option value="$PROJECT_DIR$/application/views/back_template/header.php" />
-        <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/controllers/back/home.php" />
         <option value="$PROJECT_DIR$/application/controllers/mentee/experience.php" />
         <option value="$PROJECT_DIR$/application/controllers/mentee/gallery.php" />
@@ -196,6 +181,9 @@
         <option value="$PROJECT_DIR$/application/controllers/mentee/overseas.php" />
         <option value="$PROJECT_DIR$/application/controllers/mentee/tube.php" />
         <option value="$PROJECT_DIR$/application/controllers/mentor/web_content.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/views/back_view/profile.php" />
+        <option value="$PROJECT_DIR$/application/controllers/back/profile.php" />
       </list>
     </option>
   </component>
@@ -282,46 +270,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back_mentor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="egtp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -344,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mentor" />
+              <option name="myItemId" value="back" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,21 +420,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/finance/rekening_payroll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="45" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_view/depan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/back_template/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="6" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1377" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front_view/depan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="167" column="23" selection-start="0" selection-end="8815" vertical-scroll-proportion="0.0" vertical-offset="2715" max-vertical-offset="3995" />
@@ -680,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="65" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-3.2941177" vertical-offset="342" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/front/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="13" selection-start="843" selection-end="843" vertical-scroll-proportion="-6.5384617" vertical-offset="408" max-vertical-offset="1139">
@@ -694,23 +620,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="528" selection-end="528" vertical-scroll-proportion="3.3333333" vertical-offset="306" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front_view/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="8" selection-start="731" selection-end="731" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="68" selection-start="1551" selection-end="2184" vertical-scroll-proportion="-1.0784314" vertical-offset="1067" max-vertical-offset="7803">
           <folding />
         </state>
       </provider>
@@ -785,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/mentor/gtp_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/back/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="-0.65384614" vertical-offset="204" max-vertical-offset="8398">
@@ -806,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/mentee/gtp_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/back/webcontent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="28" selection-start="529" selection-end="529" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="544">
@@ -822,7 +720,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/mentor/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.18600368" vertical-offset="18" max-vertical-offset="629">
+        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.8846154" vertical-offset="18" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/mentor/gtp_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/mentee/gtp_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_view/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="118" selection-end="329" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="2007" selection-end="2007" vertical-scroll-proportion="-6.4615383" vertical-offset="342" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front_template/header_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="16" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-10.615385" vertical-offset="863" max-vertical-offset="7820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/back_view/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="0" selection-start="4473" selection-end="4473" vertical-scroll-proportion="-64.19231" vertical-offset="1374" max-vertical-offset="3196">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+            <marker date="1407956301411" expanded="true" signature="453:472" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/back/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="56" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.6243094" vertical-offset="256" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
